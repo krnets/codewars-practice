@@ -1,3 +1,5 @@
+// 7kyu - Currying functions: multiply all elements in an array
+
 // import * as name from "jest";
 
 function multiplyAll(arr) {
