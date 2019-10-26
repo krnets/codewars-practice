@@ -1,3 +1,5 @@
+// 8kyu - Find the first non-consecutive number
+
 // const firstDup = s => s.split('').filter((x, _, a) => a.indexOf(x) !== a.lastIndexOf(x))[0] || null;
 // const firstNonRepeated = s => [...s].filter(e => s.indexOf(e) === s.lastIndexOf(e))[0] || null;
 
