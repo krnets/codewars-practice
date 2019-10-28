@@ -1,18 +1,17 @@
 function binaryToInt(n) {
-    let parsed = parseInt(n, 2)
-    return parsed
+    let intFromBinary = parseInt(n, 2)
+    return intFromBinary
 }
 q = binaryToInt(11111)
 q
 //-----------------------------------//
 function intToBinary(n) {
-    let result = ''
-
+    let binaryString = ''
     while (n > 0) {
-        result = n % 2 + result
+        binaryString = n % 2 + binaryString
         n = Math.floor(n / 2)
     }
-    return result
+    return binaryString
 }
 q = intToBinary(31)
 q
