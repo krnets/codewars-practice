@@ -1,3 +1,6 @@
+// 7kyu - Maximum Adjacent Elements Product 
+
+
 // const adjacentElementsProduct = (array) => array.length == 2 ? array[0] * array[1] :
 //             array.reduce((maxProduct, curr, i) => 
 //                         curr * array[i+1] > maxProduct ? 
