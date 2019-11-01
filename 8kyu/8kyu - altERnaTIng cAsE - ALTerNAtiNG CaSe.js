@@ -1,3 +1,5 @@
+// 8kyu - altERnaTIng cAsE - ALTerNAtiNG CaSe
+
 String.prototype.toAlternatingCase = function () {
     return this.split('').map((v) => v.toUpperCase() === v ? v.toLowerCase() : v.toUpperCase()).join('')
 }
