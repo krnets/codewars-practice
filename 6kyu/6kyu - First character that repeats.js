@@ -8,9 +8,9 @@ function firstDup(str) {
 
 // const firstDup = ([head, ...tail]) => tail.includes(head) ? firstDup(tail.filter(char => char == head)) : head || null
 
-// function firstDup (str) {
-
-// }
+// function firstDup (s) {
+//     return s[s.search(/(.).*\1/ )]
+//   }
 
 // function firstDup(s) {
 //     for (var i = 0; i < s.length; ++i) {

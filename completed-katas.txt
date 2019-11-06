@@ -1,3 +1,197 @@
+7 kyu
+Inspiring Strings
+Capocaccia
+
+
+7 kyu
+Mutate My Strings
+Capocaccia
+
+
+7 kyu
+Build a square
+Capocaccia
+
+
+7 kyu
+Substituting Variables Into Strings: Padded Numbers
+jhoffner
+
+
+7 kyu
+Leap Years
+BattleRattle
+
+
+7 kyu
+How many arguments
+iozoo
+
+
+8 kyu
+Powers of 2
+wichu
+
+
+7 kyu
+Power of 4
+ozim
+
+
+7 kyu
+Power of two
+yuriy.tsemashko
+
+Beta
+Swapping values (Revamped!)
+kingcobra
+
+
+7 kyu
+Sum of integers in string
+kingcobra
+
+
+7 kyu
+Sums of consecutive integers
+andrewferk
+
+
+7 kyu
+Sum of two lowest positive integers
+emporio
+
+
+7 kyu
+By 3, or not by 3? That is the question . . .
+DaveGuymon
+
+
+7 kyu
+Reverse words
+jnicol
+
+
+7 kyu
+Frequency sequence
+8bitfragment
+
+
+8 kyu
+Character Frequency
+MysteriousMagenta
+
+
+6 kyu
+Character frequency
+Svenito
+
+
+6 kyu
+Simple frequency sort
+KenKamau
+
+
+7 kyu
+Array element parity
+KenKamau
+
+
+7 kyu
+Discover The Original Price
+ahamidou
+
+
+7 kyu
+Counting Array Elements
+errm
+
+
+7 kyu
+Dominant array elements
+KenKamau
+
+
+7 kyu
+What dominates your array?
+joh_pot
+
+
+7 kyu
+How many consecutive numbers are needed?
+joh_pot
+
+
+7 kyu
+Exes and Ohs
+joh_pot
+
+
+7 kyu
+Shift Left
+DarkD1
+
+
+8 kyu
+String cleaning
+mkelty
+
+
+7 kyu
+Squeaky Window
+joh_pot
+
+
+7 kyu
+String reverse slicing 101
+mkelty
+
+
+7 kyu
+Head, Tail, Init and Last
+user578387
+
+
+7 kyu
+Swap the head and the tail
+Dmitry Kudla
+
+
+7 kyu
+Tail Swap
+mkelty
+
+
+6 kyu
+Title Case
+user527539
+
+
+7 kyu
+Case swapping
+joh_pot
+
+
+6 kyu
+Loose Change
+ghost_pilot
+
+
+7 kyu
+esrever esreveR!
+Caders
+
+
+7 kyu
+Loose Change!
+Caders
+
+
+7 kyu
+Find the longest gap!
+joh_pot
+
+
 8 kyu
 Grasshopper - Personalized Message
 danleavitt0
