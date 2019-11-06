@@ -1,3 +1,27 @@
+6 kyu
+What time is it?
+CodeVortex
+
+
+6 kyu
+What century is it?
+Cpt.ManlyPink
+
+
+7 kyu
+What time is it?
+northms
+
+
+7 kyu
+Binary scORe
+NaMe613
+
+
+7 kyu
+Find Duplicates
+
+
 7 kyu
 Inspiring Strings
 Capocaccia
@@ -319,642 +343,642 @@ BattleRattle
 
 6 kyu
 Permute a Palindrome
-26995% of 130432kgashok
+kgashok
 
 
 7 kyu
 Number Manipulation I (Easy)
-4186% of 77155kkavita92
+kkavita92
 
 
 7 kyu
 Largest Elements
-57890% of 2304,147xcthulhu
+xcthulhu
 
 
 7 kyu
 Closest to Zero
-16390% of 135483coffman_21
+coffman_21
 
 
 7 kyu
 Minimum Steps (Array Series #6)
-241790% of 3031,510MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Move Zeros
-16491% of 80509KK20994
+KK20994
 
 
 5 kyu
 Moving Zeros To The End
-50313388% of 2,96827,410xcthulhu
+xcthulhu
 
 
 5 kyu
 Bit calculator
-57590% of 1941,547riomus
+riomus
 
 
 6 kyu
 Bit Counting
-55012786% of 7,43352,622xcthulhu
+xcthulhu
 
 
 7 kyu
 Eliminate the intruders! Bit manipulation
-171190% of 2291,136marrakchino
+marrakchino
 
 
 7 kyu
 Simple Fun #189: Plant Doubling
-4494% of 62144myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Simple Fun #74: Growing Plant
-241292% of 3201,634myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Maximum Multiple
-331587% of 7424,524MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Love vs friendship
-281891% of 5923,413J or nor J
+J or nor J
 
 
 7 kyu
 Sum of a nested list
-261692% of 195863kingcobra
+kingcobra
 
 
 7 kyu
 Alternating between three values
-5690% of 104297kgashok
+kgashok
 
 
 5 kyu
 Numbers that are a power of their sum of digits
-1571980% of 159627raulbc777
+raulbc777
 
 
 7 kyu
 Debug Sum of Digits of a Number
-2090% of 119429Fosna
+Fosna
 
 
 7 kyu
 Sum of a sequence
-1644485% of 1,87812,996fyvfyv
+fyvfyv
 
 
 7 kyu
 Sum of a Beach
-431293% of 3331,962megawatt
+megawatt
 
 
 7 kyu
 Driving Licence
-1152788% of 3381,514adrian.eyre
+adrian.eyre
 
 
 7 kyu
 String prefix and suffix
-13091% of 102403KenKamau
+KenKamau
 
 
 7 kyu
 Find all pairs
-27891% of 2801,580Rubos
+Rubos
 
 
 7 kyu
 Find The Duplicated Number in a Consecutive Unsorted List
-18990% of 1671,444jdwolford
+jdwolford
 
 
 5 kyu
 First non-repeating character
-3489788% of 1,89614,813OverZealous
+OverZealous
 
 
 7 kyu
 Find all non-consecutive numbers
-9489% of 87363thecodeite
+thecodeite
 
 
 7 kyu
 Simple Fun #144: Distinct Digit Year
-17493% of 210896myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Simple Fun #10: Range Bit Counting
-9594% of 201822myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Simple Fun #152: Invite More Women?
-26589% of 5933,393myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Find the divisors!
-3596188% of 4,64635,549kwy95
+kwy95
 
 
 7 kyu
 Find divisors of a number
-942888% of 8888,741tiriana
+tiriana
 
 
 7 kyu
 Find factors of a number
-17291% of 115923zCo
+zCo
 
 
 8 kyu
 Find Multiples of a Number
-391791% of 6343,479Spherixo
+Spherixo
 
 
 7 kyu
 Return the closest number multiple of 10
-10492% of 2171,031brunolm
+brunolm
 
 
 7 kyu
 Series of integers from m to n
-2187% of 120545buttonupbub
+buttonupbub
 
 
 7 kyu
 Return the first M multiples of N
-10592% of 2981,532diophore
+diophore
 
 
 6 kyu
 Character with longest consecutive repetition
-351294% of 231861suic
+suic
 
 
 7 kyu
 Word values
-22891% of 3531,625KenKamau
+KenKamau
 
 
 7 kyu
 Rotate to the max
-6193% of 54260user4386369
+user4386369
 
 
 7 kyu
 The Crockford Invocation
-3385% of 69330user4386369
+user4386369
 
 
 7 kyu
 Convert a Number to money!!
-29684% of 154640user4386369
+user4386369
 
 
 7 kyu
 Ones and Zeros
-45610588% of 5,03636,289user4386369
+user4386369
 
 
 8 kyu
 Swap Values
-731082% of 6195,829dnolan
+dnolan
 
 
 7 kyu
 Hello World - Without Strings
-8590% of 183702pcr3w
+pcr3w
 
 
 6 kyu
 Numerical Palindrome #4
-11397% of 91273kkavita92
+kkavita92
 
 
 6 kyu
 Numerical Palindrome #3.5
-8194% of 54146kkavita92
+kkavita92
 
 
 6 kyu
 Numerical Palindrome #3
-10495% of 77205kkavita92
+kkavita92
 
 
 6 kyu
 Numerical Palindrome #2
-19394% of 109316kkavita92
+kkavita92
 
 
 7 kyu
 Form The Largest
-502192% of 6463,933MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Fix string case
-481792% of 5763,135KenKamau
+KenKamau
 
 
 7 kyu
 Alphabet symmetry
-352394% of 5212,576KenKamau
+KenKamau
 
 
 7 kyu
 FIXME: Get Full Name
-231887% of 5483,055dinglemouse
+dinglemouse
 
 
 7 kyu
 Simple Fun #176: Reverse Letter
-793192% of 1,1076,684myjinxin2015
+myjinxin2015
 
 
 7 kyu
 Two to One
-63813888% of 6,71444,213g964
+g964
 
 
 7 kyu
 Mumbling
-108623289% of 10,38468,661g964
+g964
 
 
 6 kyu
 Numerical Palindrome #1.5
-12695% of 138407kkavita92
+kkavita92
 
 
 7 kyu
 Numerical Palindrome #1
-19691% of 3271,264kkavita92
+kkavita92
 
 
 7 kyu
 Nice Array
-42889% of 3572,126አወል እሸቱ
+አወል እሸቱ
 
 
 7 kyu
 Covfefe
-31990% of 4832,315AzariasB
+AzariasB
 
 
 7 kyu
 Array comparator
-24587% of 2562,009veitsi
+veitsi
 
 
 7 kyu
 Incrementer
-15694% of 2471,177kkavita92
+kkavita92
 
 
 7 kyu
 Alternate capitalization
-321293% of 5062,959KenKamau
+KenKamau
 
 
 7 kyu
 Larger Product or Sum
-4191% of 65216adrnel
+adrnel
 
 
 7 kyu
 Numbers in strings
-291493% of 3731,785KenKamau
+KenKamau
 
 
 7 kyu
 Make a function that does arithmetic!
-1073585% of 1,53211,733ZooeyMiller
+ZooeyMiller
 
 
 8 kyu
 No Loops 2 - You only need one
-12689% of 2851,180A.Partridge
+A.Partridge
 
 
 7 kyu
 No Loops 1 - Small enough?
-6191% of 223668A.Partridge
+A.Partridge
 
 
 7 kyu
 Product of Array Items
-23987% of 4842,684Dana
+Dana
 
 
 7 kyu
 Negation of a Value
-11288% of 178762kodejuice
+kodejuice
 
 
 7 kyu
 Scrabblemania
-1177% of 3990view4
+view4
 
 
 7 kyu
 Filter the array into unique values in 38 chars
-1179% of 70144Peter Rhodes
+Peter Rhodes
 
 
 7 kyu
 Array Mash
-5288% of 112477benjicwood
+benjicwood
 
 
 7 kyu
 Not above the one!
-8384% of 93262Nspringham
+Nspringham
 
 
 7 kyu
 Convert the score
-21493% of 183877Nspringham
+Nspringham
 
 
 7 kyu
 Well of Ideas - Harder Version
-14591% of 194813A.Partridge
+A.Partridge
 
 
 7 kyu
 Sum of Array Averages
-19493% of 223822Porso7
+Porso7
 
 
 7 kyu
 Thinking & Testing : How many "word"?
-19893% of 61269myjinxin2015
+myjinxin2015
 
 
 6 kyu
 Validate my Password
-8489% of 66212Capocaccia
+Capocaccia
 
 
 5 kyu
 Regex Password Validation
-65415489% of 1,1128,674EricFreeman
+EricFreeman
 
 
 7 kyu
 Password validator
-39791% of 147895tdowek1
+tdowek1
 
 
 7 kyu
 Make Class
-19387% of 50190Jomo Pipi
+Jomo Pipi
 
 
 7 kyu
 Calculate Two People's Individual Ages
-12786% of 181770AseelM
+AseelM
 
 
 7 kyu
 Romanize Russian Passports
-5183% of 3376bdupau
+bdupau
 
 
 7 kyu
 Powers of 3
-28484% of 3021,654kjytay
+kjytay
 
 
 8 kyu
 My head is at the wrong end!
-943781% of 1,44210,959A.Partridge
+A.Partridge
 
 
 4 kyu
 Strip Comments
-4949582% of 1,49611,769jhoffner
+jhoffner
 
 
 6 kyu
 Insights for Uncle Tom
-1095% of 2144Rafa Mel
+Rafa Mel
 
 
 7 kyu
 Ch4113ng3
-8487% of 216818phju
+phju
 
 
 6 kyu
 One down
-12291% of 85263WesleyYoung
+WesleyYoung
 
 
 7 kyu
 Vowel Count
-66214986% of 11,98892,486jayeshcp
+jayeshcp
 
 
 8 kyu
 Vowel remover
-741790% of 6436,599naaz
+naaz
 
 
 Beta
 Replace vowels
-2077% of 166311darlanmendonca
+darlanmendonca
 
 
 7 kyu
 Vowel Changer
-4291% of 88320K-Calderon-ASC
+K-Calderon-ASC
 
 
 8 kyu
 !a == a ?!
-111080% of 211901arhigod
+arhigod
 
 
 8 kyu
 altERnaTIng cAsE <=> ALTerNAtiNG CaSe
-2136989% of 1,70112,100donaldsebleung
+donaldsebleung
 
 
 5 kyu
 Convert all the cases!
-743192% of 186658AJFarmar
+AJFarmar
 
 
 6 kyu
 XOR string reduction
-6192% of 64176MercQueen
+MercQueen
 
 
 7 kyu
 Simple string reversal II
-10992% of 2391,087KenKamau
+KenKamau
 
 
 Beta
 Javascript Codegolf: Fibonacci sequence
-0170% of 3246ericwenn
+ericwenn
 
 
 5 kyu
 Additionless addition.
-46990% of 141776dukerutledge
+dukerutledge
 
 
 7 kyu
 Binary Addition
-3093384% of 5,64440,781garrettguy457
+garrettguy457
 
 
 6 kyu
 BitMath: Addition
-2185% of 2465hencethus
+hencethus
 
 
 6 kyu
 Number Format
-8684% of 217852cnawaraj
+cnawaraj
 
 
 7 kyu
 A Promise is a Promise
-5483% of 51140Austin Haws
+Austin Haws
 
 
 8 kyu
 Returning Strings
-301784% of 1,4689,587Aweson1
+Aweson1
 
 
 7 kyu
 Between Extremes
-7589% of 238967TroyMaeder
+TroyMaeder
 
 
 8 kyu
 Super Duper Easy
-22890% of 8083,841Aweson1
+Aweson1
 
 
 8 kyu
 Fake Binary
-2189190% of 2,14715,301A.Partridge
+A.Partridge
 
 
 8 kyu
 Jenny's secret message
-1635686% of 2,89428,480bkaes
+bkaes
 
 
 8 kyu
 Calculate average
-1567187% of 3,06121,753wichu
+wichu
 
 
 8 kyu
 Is n divisible by x and y?
-823490% of 3,00418,799naaz
+naaz
 
 
 8 kyu
 Keep Hydrated!
-1797085% of 3,72727,982paulrichard
+paulrichard
 
 
 8 kyu
 Sum without highest and lowest number
-3777988% of 3,11218,972user5036852
+user5036852
 
 
 8 kyu
 Convert number to reversed array of digits
-3549190% of 2,92223,195emporio
+emporio
 
 
 8 kyu
 Convert a Number to a String!
-1795183% of 4,08843,463AKJ.IO
+AKJ.IO
 
 
 8 kyu
 Basic Mathematical Operations
-2849889% of 3,99333,433Quickz
+Quickz
 
 
 8 kyu
 String repeat
-34312886% of 6,43549,696wichu
+wichu
 
 
 8 kyu
 Sum of positive
-48912891% of 6,77152,154JbPasquier
+JbPasquier
 
 
 8 kyu
 Find the first non-consecutive number
-692991% of 8675,309thecodeite
+thecodeite
 
 
 7 kyu
 Maximum Product
-351691% of 5963,345MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Nth Smallest Element (Array Series #4)
-281289% of 4772,720MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Maximum Gap (Array Series #4)
-201393% of 3741,886MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Array Leaders (Array Series #3)
-341294% of 3471,523MrZizoScream
+MrZizoScream
 
 
 7 kyu
 Minimize Sum Of Array (Array Series #1)
-692091% of 5432,740MrZizoScream
+MrZizoScream
 
 
 7 kyu
 London CityHacker
-10680% of 71289HThanki
+HThanki
 
 
 7 kyu
 Percentage of amino acids
-7385% of 91236JasperGeh
+JasperGeh
 
 
 5 kyu
 Histogram - V1
-651786% of 136545dinglemouse
+dinglemouse
 
 
 7 kyu
 Histogram - H1
-411490% of 3301,486dinglemouse
+dinglemouse
 
 
 7 kyu
