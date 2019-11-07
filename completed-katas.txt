@@ -1,3 +1,67 @@
+7 kyu
+Even numbers in an array
+Dmitry Kudla
+
+
+7 kyu
+Recursive Replication
+karthikiyengar
+
+
+7 kyu
+String Scramble
+Dragoris
+
+
+6 kyu
+Algorithm Fun: Find The Unknown Number - Part II
+myjinxin2015
+
+
+7 kyu
+Algorithm Fun: Find The Unknown Number - Part I
+myjinxin2015
+
+
+7 kyu
+Sum of all the multiples of 3 or 5
+wichu
+
+
+7 kyu
+Simple consecutive pairs
+KenKamau
+
+
+6 kyu
+Sum consecutives
+JustyFY
+
+
+6 kyu
+Consecutive Count
+Capocaccia
+
+
+7 kyu
+Consecutive letters
+KenKamau
+
+
+7 kyu
+Compare Strings by Sum of Chars
+user5036852
+
+
+7 kyu
+Sort by Last Char
+A.Partridge
+
+
+7 kyu
+Friend or Foe?
+
+
 6 kyu
 What time is it?
 CodeVortex
