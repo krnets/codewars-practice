@@ -1,3 +1,68 @@
+6 kyu
+Find number in an array # 5
+myjinxin2015
+
+
+7 kyu
+Sum of all arguments
+user578387
+
+
+6 kyu
+Array intersect all
+ankr
+
+
+7 kyu
+Sum ALL the arrays!
+Polatrite
+
+
+Beta
+Fibonacci Number
+vasekhlav
+
+
+7 kyu
+Sum of digits
+carlostessier
+
+
+7 kyu
+Digit Sum
+vasekhlav
+
+
+7 kyu
+Sum The Strings: ARRAY EDITION
+K-Calderon-ASC
+
+
+7 kyu
+Sum The Array
+vasekhlav
+
+
+7 kyu
+Wise drunk man
+አወል እሸቱ
+
+
+6 kyu
+Drunk friend
+vasekhlav
+
+
+6 kyu
+Range function
+wichu
+
+
+6 kyu
+Summarize ranges
+joh_pot
+
+
 7 kyu
 Even numbers in an array
 Dmitry Kudla
