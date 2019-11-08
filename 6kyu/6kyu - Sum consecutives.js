@@ -26,11 +26,11 @@ const sumConsecutives = s => s.reduce((a,v,i) => (v != s[i-1] ? a.push(v) : a[a.
 //     return sums
 // }
 
-q = sumConsecutives([1, 4, 4, 4, 0, 4, 3, 3, 1]), [1, 12, 0, 4, 6, 1], "on list [1,4,4,0,4,3,3,1] you get "
+q = sumConsecutives([1, 4, 4, 4, 0, 4, 3, 3, 1]) // [1, 12, 0, 4, 6, 1], "on list [1,4,4,0,4,3,3,1] you get "
 q
-q = sumConsecutives([1, 1, 7, 7, 3]), [2, 14, 3], "on list [1,1,7,7,3] you get "
+q = sumConsecutives([1, 1, 7, 7, 3]) // [2, 14, 3], "on list [1,1,7,7,3] you get "
 q
-q = sumConsecutives([-5, -5, 7, 7, 12, 0]), [-10, 14, 12, 0], "on list [-5,-5,7,7,12,0] you get "
+q = sumConsecutives([-5, -5, 7, 7, 12, 0]) // [-10, 14, 12, 0], "on list [-5,-5,7,7,12,0] you get "
 q
-q = sumConsecutives([3, 3, 3, 3, 1]), [12, 1], "on list [3,3,3,3,1] you get "
+q = sumConsecutives([3, 3, 3, 3, 1]) // [12, 1], "on list [3,3,3,3,1] you get "
 q
