@@ -1,3 +1,117 @@
+Beta
+Order by frequency
+lukehaas
+
+
+7 kyu
+Descending Order
+TastyOs
+
+
+8 kyu
+Training JS #32: methods of Math---round() ceil() and floor()
+myjinxin2015
+
+
+7 kyu
+Training JS #36: methods of Math---kata author's lover:random()
+myjinxin2015
+
+
+8 kyu
+Training JS #14: Methods of Number object--toString() and toLocaleString()
+myjinxin2015
+
+
+7 kyu
+Training JS #26: methods of arrayObject---map()
+myjinxin2015
+
+
+7 kyu
+Training JS #30: methods of arrayObject---reduce() and reduceRight()
+myjinxin2015
+
+
+7 kyu
+Training JS #33: methods of Math---max() min() and abs()
+myjinxin2015
+
+
+Beta
+Find something in an Array
+SantiMA10
+
+
+6 kyu
+replaceAll(input, find, replace)
+wthit56
+
+
+7 kyu
+Reverse list
+wichu
+
+
+7 kyu
+Get list sum recursively
+wichu
+
+
+7 kyu
+ES2015: Get the real length of string. 
+binggg
+
+
+7 kyu
+Sentence to words
+wichu
+
+
+7 kyu
+Max-min arrays
+KenKamau
+
+
+7 kyu
+Find min and max
+wichu
+
+
+7 kyu
+ToLeetSpeak
+wichu
+
+
+7 kyu
+Get length of the list recursively
+wichu
+
+
+7 kyu
+Replace all items
+wichu
+
+
+6 kyu
+Replacement
+arhigod
+
+
+8 kyu
+FIXME: Replace all dots
+dinglemouse
+
+
+Beta
+Hello World
+honwenle
+
+
+6 kyu
+FIXME: Hello
+
+
 6 kyu
 Find number in an array # 5
 myjinxin2015
