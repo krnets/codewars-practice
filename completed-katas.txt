@@ -1,3 +1,73 @@
+6 kyu
+Number Shortening Filter
+GiacomoSorbi
+
+
+7 kyu
+Filter Coffee
+Bitcorn
+
+
+7 kyu
+The Office III - Broken Photocopier
+A.Partridge
+
+
+7 kyu
+The Office II - Boredom Score
+A.Partridge
+
+
+7 kyu
+Celebrity Baby Names
+Cleop
+
+
+7 kyu
+The Lazy Startup Office
+Cleop
+
+
+7 kyu
+The Office IV - Find a Meeting Room
+A.Partridge
+
+
+7 kyu
+The Office I - Outed
+A.Partridge
+
+
+Beta
+Filter out the vowels
+frank-weindel
+
+
+7 kyu
+List Filtering
+cmgerber
+
+
+7 kyu
+Growth of a Population
+g964
+
+
+7 kyu
+Beginner Series #3 Sum of Numbers
+Vortus
+
+
+7 kyu
+Isograms
+chunjef
+
+
+7 kyu
+Complementary DNA
+JustyFY
+
+
 Beta
 Order by frequency
 lukehaas
