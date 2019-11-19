@@ -1,4 +1,349 @@
 6 kyu
+Highest Scoring Word
+A.Partridge
+
+
+6 kyu
+Roman Numerals Encoder
+jhoffner
+
+
+7 kyu
+Count the Combinations
+tostaylo
+
+
+6 kyu
+Count the smiley faces!
+St3f4n
+
+
+6 kyu
+Round by 0.5 steps
+vshjxyz
+
+
+6 kyu
+Time-like string format
+vshjxyz
+
+
+6 kyu
+Format a string of names like 'Bart, Lisa & Maggie'.
+weavermedia
+
+
+7 kyu
+Odd-Even String Sort
+Joz
+
+
+6 kyu
+Sort the odd
+fyvfyv
+
+
+Beta
+Multiplication sequence - part 1
+naaz
+
+
+Beta
+Number of ones in binary
+kjytay
+
+
+6 kyu
+Most consecutive 0's in a row [Code-golf]
+___i
+
+
+6 kyu
+Most Consecutive Zeros of a Binary Number
+ajLapid718
+
+
+6 kyu
+Lowest product of 4 consecutive numbers
+naaz
+
+
+5 kyu
+Product of consecutive Fib numbers
+g964
+
+
+6 kyu
+Find the missing letter
+user5036852
+
+
+6 kyu
+Array.diff
+marcinbunsch
+
+
+Beta
+Rotated string
+antrianis
+
+
+Beta
+string return in alphabetical order
+tundeaji1232
+
+
+Beta
+In order or not?
+aec58
+
+
+6 kyu
+Unique In Order
+antrianis
+
+
+6 kyu
+Vasya - Clerk
+AlexIsHappy
+
+
+6 kyu
+Replace With Alphabet Position
+MysteriousMagenta
+
+
+6 kyu
+Count the divisible numbers
+joh_pot
+
+
+7 kyu
+Are the numbers in order?
+donaldsebleung
+
+
+7 kyu
+Largest 5 digit number in a series
+jhoffner
+
+
+6 kyu
+Create Phone Number
+xDranik
+
+
+7 kyu
+Round to the next multiple of 5.
+hwtdstrngls
+
+
+7 kyu
+Find the middle element
+myTerminal
+
+
+7 kyu
+Sort array by string length
+stevehopkinson
+
+
+7 kyu
+Breaking chocolate problem
+krikus
+
+
+7 kyu
+The highest profit wins!
+bkaes
+
+
+7 kyu
+Odd or Even?
+ethaning
+
+
+7 kyu
+Find the stray number
+janitormeir
+
+
+7 kyu
+Regex validate PIN code
+JMurphyWeb
+
+
+7 kyu
+Get key/value pairs as arrays
+jhoffner
+
+
+7 kyu
+Split string by multiple delimiters
+zofy
+
+
+7 kyu
+Building Strings From a Hash
+jhoffner
+
+
+6 kyu
+Split Strings
+jhoffner
+
+
+7 kyu
+Testing 1-2-3
+acr
+
+
+7 kyu
+Everything Is Even
+WarpSpideR
+
+
+7 kyu
+Find Fibonacci last digit
+bbb1991
+
+
+7 kyu
+Sum even numbers
+jmpp
+
+
+6 kyu
+Almost Even
+OverZealous
+
+
+7 kyu
+Last
+xcthulhu
+
+
+7 kyu
+Evens times last
+CTingCTer
+
+
+6 kyu
+IQ Test
+AlexIsHappy
+
+
+6 kyu
+Who likes it?
+BattleRattle
+
+
+7 kyu
+Jaden Casing Strings
+jacobb
+
+
+6 kyu
+Dubstep
+AlexIsHappy
+
+
+6 kyu
+Stop gninnipS My sdroW!
+xDranik
+
+
+6 kyu
+Your order, please
+iamstone
+
+
+6 kyu
+Decode the Morse code
+jolaf
+
+
+7 kyu
+Array.prototype.size()
+JohanWiltink
+
+
+6 kyu
+Infinite Sequences
+Mackay
+
+
+6 kyu
+Fibonacci, Tribonacci and friends
+GiacomoSorbi
+
+
+6 kyu
+Tribonacci Sequence
+GiacomoSorbi
+
+
+6 kyu
+Counting Duplicates
+kgashok
+
+
+6 kyu
+Sum of Digits / Digital Root
+user578387
+
+
+6 kyu
+Find The Parity Outlier
+obnounce
+
+
+6 kyu
+Multiples of 3 or 5
+jhoffner
+
+
+6 kyu
+The Vowel Code
+yaphi1
+
+
+6 kyu
+Filter out for good!
+joh_pot
+
+
+7 kyu
+Multidimensional array
+Dmitry Kudla
+
+
+6 kyu
+Persistent Bugger.
+joh_pot
+
+
+7 kyu
+Sum Array with different bases
+phju
+
+
+7 kyu
+Make a square box!
+user2514386
+
+
+6 kyu
+Find the odd int
+rbuckley
+
+
+7 kyu
+Filter the number
+matt c
+
+
+6 kyu
 Number Shortening Filter
 GiacomoSorbi
 
