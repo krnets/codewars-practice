@@ -1,3 +1,408 @@
+7 kyu
+Valid HK Phone Number
+donaldsebleung
+
+
+6 kyu
+Valid Phone Number
+xDranik
+
+
+7 kyu
+Every possible sum of two digits
+Zorianff9
+
+
+Beta
+Sum two arrays
+ggwilliams
+
+
+6 kyu
+Two Sum
+wthit56
+
+
+6 kyu
+Character limits: How long is your piece of string?
+curiousrabbit
+
+
+6 kyu
+Array Helpers
+BattleRattle
+
+
+Beta
+Count letters in a string
+cunnellp5
+
+
+6 kyu
+Character counts
+RobinKnipe
+
+
+6 kyu
+Count characters in your string
+riston
+
+
+7 kyu
+Basic method
+arifhp86
+
+
+7 kyu
+One Line: Even Check
+Almusawi
+
+
+Beta
+One Line: Even Odd Converter
+Almusawi
+
+
+6 kyu
+Trim a String
+BattleRattle
+
+
+7 kyu
+Trimming a string
+jonbstrong
+
+
+7 kyu
+Trim method
+Almusawi
+
+
+6 kyu
+Break camelCase
+hakt
+
+
+6 kyu
+CamelCase Method
+bestwebua
+
+
+7 kyu
+NATO Phonetic Alphabet
+user5854572
+
+
+6 kyu
+IP Address to Number
+user5854572
+
+
+6 kyu
+IP Validation
+wink
+
+
+6 kyu
+Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!
+raulbc777
+
+
+6 kyu
+WeIrD StRiNg CaSe
+xDranik
+
+
+7 kyu
+Anagram Detection
+user3793153
+
+
+6 kyu
+Detect Pangram
+anindyabd
+
+
+6 kyu
+Does my number look big in this?
+JulianNicholls
+
+
+6 kyu
+Convert string to camel case
+jhoffner
+
+
+7 kyu
+Flatten
+xcthulhu
+
+
+7 kyu
+Words to sentence
+wichu
+
+
+7 kyu
+Turn any word into a beef taco
+user9955155
+
+
+Beta
+Counting number of words having a second vowel
+imagine21
+
+
+Beta
+Count the Number of Words in a Sentence
+Sephira273
+
+
+6 kyu
+Format words into a sentence
+jhoffner
+
+
+7 kyu
+Sort with a sorting array
+madmed88
+
+
+7 kyu
+Sort Numbers
+jhoffner
+
+
+6 kyu
+extract file name
+Javatlacati
+
+
+6 kyu
+Extract the IDs from the data set
+jhoffner
+
+
+6 kyu
+Kushim the Accountant: Extract $ values from text
+BartBucknill
+
+
+5 kyu
+Extract the domain name from a URL
+xianpants
+
+
+7 kyu
+Remove anchor from URL
+jhoffner
+
+
+7 kyu
+Most digits
+Gbaja
+
+
+7 kyu
+Multiply characters
+ValenteMesmo
+
+
+8 kyu
+Broken Counter
+BattleRattle
+
+
+7 kyu
+Reversing Fun
+Shivo
+
+
+7 kyu
+Kooka-Counter
+dinglemouse
+
+
+7 kyu
+Character Counter
+Shivo
+
+
+7 kyu
+Most Likely
+philb56
+
+
+7 kyu
+Most valuable character
+KenKamau
+
+
+7 kyu
+Write shortest function to calculate Average number of Array
+maliknur
+
+
+Beta
+Average Age of Females
+davis-trem
+
+
+7 kyu
+Averages of numbers
+user5036852
+
+
+6 kyu
+Numericals of a String
+Jomo Pipi
+
+
+6 kyu
+Data Reverse
+sataman
+
+
+6 kyu
+Reverse every other word in the string
+Confettimaker
+
+
+7 kyu
+Find the vowels
+willjharmer
+
+
+7 kyu
+Recursive reverse string
+alex.budiakov
+
+
+7 kyu
+Correct the time-string
+user5036852
+
+
+7 kyu
+List to Array
+nivrad00
+
+
+7 kyu
+Reverse a Number
+MattWatt
+
+
+7 kyu
+Find the nth Digit of a Number
+Goncalerta
+
+
+7 kyu
+Find the capitals
+ankr
+
+
+7 kyu
+Sum of numbers from 0 to N
+Javatlacati
+
+
+7 kyu
+Simple Fun #55: Cyclic String
+myjinxin2015
+
+
+5 kyu
+Return substring instance count - 2
+ineiti
+
+
+7 kyu
+Binary to string
+user889396
+
+
+6 kyu
+Binary string
+ssineriz
+
+
+7 kyu
+Simple Fun #194: Binary String
+myjinxin2015
+
+
+6 kyu
+Palindromization
+Detecter
+
+
+6 kyu
+Palindromic Numbers
+edalorzo
+
+
+7 kyu
+Next Palindromic Number.
+raulbc777
+
+
+Beta
+Is number a palindrome?
+veitsi
+
+
+8 kyu
+Is it a number?
+provector
+
+
+6 kyu
+Check if number is prime without loops
+frusciante
+
+
+6 kyu
+Is a Prime?
+matt c
+
+
+6 kyu
+Is a number prime?
+arithmetric
+
+
+6 kyu
+Write Number in Expanded Form
+Belax8
+
+
+7 kyu
+Dictionary from two lists
+opportunity356
+
+
+7 kyu
+Substring fun
+philb56
+
+
+Beta
+baby, repeat
+junipberry
+
+
+6 kyu
+Repeated Substring
+opportunity356
+
+
+7 kyu
+Return substring instance count
+jhoffner
+
+
 6 kyu
 Highest Scoring Word
 A.Partridge
