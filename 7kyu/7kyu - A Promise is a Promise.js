@@ -1,17 +1,16 @@
-function promiseHelloWorld() {
-    return new Promise((resolve, reject) => setTimeout(function () {
-        resolve('Hello World!')
-    }, 100))
-}
+// function promiseHelloWorld() {
+//     return new Promise((resolve, reject) => setTimeout(function () {
+//         resolve('Hello World!')
+//     }, 1000))
+// }
 
-async function promiseHelloWorld() {
-    return 'Hello World!';
-}
+// async function promiseHelloWorld() {
+//     return 'Hello World!';
+// }
 
-const promiseHelloWorld = () => Promise.resolve("Hello World!");
+// const promiseHelloWorld = () => Promise.resolve("Hello World!");
 
 const promiseHelloWorld = async () => 'Hello World!'
 
-
-q = promiseHelloWorld().then(response => Test.assertEquals('Hello World!', response, 'Simple Single call test'))
+q = promiseHelloWorld().then() // response => 'Hello World!'
 q

@@ -5,7 +5,9 @@
   "main": "",
   "dependencies": {
     "chai": "^4.2.0",
+    "jest": "^24.9.0",
     "lodash": "^4.17.15",
+    "mocha": "^6.2.2",
     "ramda": "^0.26.1"
   },
   "devDependencies": {},
