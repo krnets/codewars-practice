@@ -69,6 +69,13 @@ const compose = (...fns) => seed => fns.reduceRight((a, f) => f(a), seed)
 // const pipeline = (seed, ...fns) => fns.reduce((a, f) => f(a), seed)
 // const compose = (...fns) => seed => pipeline(seed, ...fns.reverse())
 
+// const compose = (...fns) => (seed) => fns.reduceRight((a, f) => f(a), seed)
+// const pipeline = (seed, ...fns) => compose(...fns.reverse())(seed)
+
+// const callWith = (arg, fn) => fn(arg)
+// const pipeline = (init, ...fns) => fns.reduce(callWith, init)
+// const compose = (...fns) => init => fns.reduceRight(callWith, init)
+
 q = pipeline() === void 0 // 'It should handle when there is no seed and no function')
 q
 q = pipeline(42) // 42, 'It should handle when only the seed is specified')
