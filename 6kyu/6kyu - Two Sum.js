@@ -29,6 +29,17 @@ function twoSum(number, target) {
                 return [i, j]
 }
 
+// function twoSum(number, target) {
+//     let valsMap = new Map()
+//     for (let i = 0; i < number.length; i++) {
+//         let complement = target - number[i]
+//         if (valsMap.get(complement) != undefined)
+//             return [valsMap.get(complement), i]
+//         else 
+//             valsMap.set(number[i], i)
+//     }
+// }
+
 q = twoSum([1, 2, 3], 4) //  [0,2]
 q
 q = twoSum([1234, 5678, 9012], 14690) // [1,2]
