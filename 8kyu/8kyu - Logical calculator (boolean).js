@@ -1,3 +1,16 @@
+// 8 kyu - Logical calculator
+
+function logicalCalc(array, op) {
+    switch (op) {
+        case 'AND':
+            return array.reduce((accum, val) => accum && val)
+        case 'OR':
+            return array.reduce((accum, val) => accum || val)
+        case 'XOR':
+            return array.reduce((accum, val) => accum != val)
+    }
+}
+
 // function logicalCalc(array, op) {
 //     if (op == 'AND') {
 //         return array.reduce((accum, val) => accum && val)
@@ -7,17 +20,6 @@
 //     }
 //     if (op == 'XOR') {
 //         return array.reduce((accum, val) => accum != val)
-//     }
-// }
-
-// function logicalCalc(array, op) {
-//     switch (op) {
-//         case 'AND':
-//             return array.reduce((accum, val) => accum && val)
-//         case 'OR':
-//             return array.reduce((accum, val) => accum || val)
-//         case 'XOR':
-//             return array.reduce((accum, val) => accum != val)
 //     }
 // }
 
@@ -53,4 +55,3 @@ q
 q = logicalCalc([true, true, false, false], "OR") // true);
 q
 q = logicalCalc([true, true, false, false], "XOR") //false);
-q
