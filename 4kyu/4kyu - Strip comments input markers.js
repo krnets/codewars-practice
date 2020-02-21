@@ -1,3 +1,27 @@
+// 4kyu - Strip Comments
+
+/* Complete the solution so that it strips all text that follows any of a set of comment markers passed in. Any whitespace at the end of the line should also be stripped out.
+
+Example:
+
+Given an input string of:
+
+apples, pears # and bananas
+grapes
+bananas !apples
+
+The output expected would be:
+
+apples, pears
+grapes
+bananas
+
+The code would be called like so:
+
+var result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
+// result should == "apples, pears\ngrapes\nbananas"   */
+
+
 // function solution(str, arr) {
 //     str = str.split("\n")
 //     for(let i = 0; i < str.length; i++){
@@ -40,8 +64,8 @@ const solution = (input, markers) => input.replace(new RegExp(`\\s*[${markers.jo
 // const solution = (input, markers) => input.replace(new RegExp(" [" + markers.join(',') + "].+", "gi"), '');
 
 q = solution("apples, plums % and bananas\npears\noranges !applesauce", ["%", "!"])
-// // "apples, plums\npears\noranges"
 q
+// "apples, plums\npears\noranges"
 
 function checkComments(input, markers, expected) {
     var actual;
