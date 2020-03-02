@@ -1,6 +1,6 @@
-""" 8 kyu - Reversed Strings
+# 8 kyu - Reversed Strings
 
-Complete the solution so that it reverses the string value passed into it. """
+""" Complete the solution so that it reverses the string value passed into it. """
 
 # def solution(string):
 #     return ''.join(reversed(string))
