@@ -1,9 +1,10 @@
-""" 8 kyu - Convert a string to an array
+# 8kyu - Convert a string to an array
 
-Write a function to split a string and convert it into an array of words. For example:
+""" Write a function to split a string and convert it into an array of words. For example:
+
 "Robin Singh" ==> ["Robin", "Singh"]
-"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
-Fundamentals | Arrays | Strings """
+
+"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"] """
 
 
 def string_to_array(s):
