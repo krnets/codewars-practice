@@ -1,0 +1,45 @@
+# 6kyu - IQ Test
+
+""" Bob is preparing to pass IQ test. The most frequent task in this test is to find out which one of the given numbers 
+differs from the others. Bob observed that one number usually differs from the others in evenness. 
+Help Bob — to check his answers, he needs a program that among the given numbers finds one that is different in evenness, 
+and return a position of this number.
+
+! Keep in mind that your task is to help Bob solve a real IQ test, which means indexes of the elements start from 1 (not 0)
+
+##Examples :
+
+iq_test("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even
+iq_test("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd """
+
+
+# def iq_test(numbers):
+#     numbers = [int(x) for x in numbers.split()]
+#     odds = [x for x in numbers if x % 2]
+#     even = [x for x in numbers if x % 2 == 0]
+#     return numbers.index(odds[0]) + 1 if len(odds) == 1 else numbers.index(even[0]) + 1
+
+# def iq_test(numbers):
+#     even = [int(x) % 2 == 0 for x in numbers.split()]
+#     return even.index(True) + 1 if even.count(True) == 1 else even.index(False) + 1
+
+def iq_test(numbers):
+    odd = [int(x) % 2 for x in numbers.split()]
+    return 1 + (odd.index(1) if odd.count(1) == 1 else odd.index(0))
+
+# def iq_test(numbers):
+#     poss = [0, 0]
+#     for i, s in enumerate(numbers.split()):
+#         c = int(s) % 2
+#         if poss[c]:
+#             if poss[1 - c]:
+#                 return poss[1 - c]
+#         else:
+#             poss[c] = i + 1
+#     return i + 1
+
+
+q = iq_test("2 4 7 8 10")  # 3
+q
+q = iq_test("1 2 2")  # 1
+q
