@@ -6,4 +6,4 @@
 
 - Kata: is a coding exercise to write idiomatic, performant or simply clever solution in programming language of choice
 
-- Kyu: is a mark of kata difficulty as well as user rank on Codewars
+- Kyu: is a mark of kata difficulty as well as user rank on Codewars (starting from 8 kyu and working towards 1 kyu)
