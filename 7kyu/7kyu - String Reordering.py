@@ -17,8 +17,10 @@ Output:
 'Vatsan took his dog for a spin' """
 
 
-def sentence(lst):
-    return sorted(lst)
+def sentence(input):
+    pairs = [list(*x.items()) for x in input]
+    ordered = sorted(pairs, key=lambda k: int(k[0]))
+    return ' '.join(word for i, word in ordered)
 
 
 List = [
