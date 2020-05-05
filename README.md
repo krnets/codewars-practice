@@ -19,3 +19,11 @@ Currently ranked `2 kyu` with 1500+ katas solved.
 5 - 6 kyu │ Novice
 7 - 8 kyu │ Beginner
 ```
+
+### Tests
+
+JavaScript quick tests are executed with Quokka.js
+
+Python tests are executed using Wolf for Visual Studio Code
+
+Both extensions provide instant results while the code is being written
