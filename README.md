@@ -24,6 +24,6 @@ Currently ranked `2 kyu` with 1500+ katas solved.
 
 JavaScript quick tests are executed with Quokka.js
 
-Python tests are executed using Wolf for Visual Studio Code
+Python tests are executed with Wolf for Visual Studio Code
 
 Both extensions provide instant results while the code is being written
