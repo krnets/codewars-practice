@@ -10,6 +10,9 @@ Note: The function accepts an integer and returns an integer """
 
 def square_digits(num):
     return int(''.join((str(int(d) ** 2)) for d in str(num)))
+    
+# def square_digits(num):
+#     return int(''.join(map(lambda x: str(int(x)**2), str(num))))
 
 
 q = square_digits(9119)  # 811181
