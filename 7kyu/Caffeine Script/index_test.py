@@ -40,3 +40,7 @@ class TestCaffeineBuzz(unittest.TestCase):
         n = 1
         actual = caffeineBuzz(n)
         self.assertEqual(actual, 'mocha_missing!')
+
+
+if __name__ == 'main':
+    unittest.main()
