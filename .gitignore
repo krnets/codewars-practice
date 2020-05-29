@@ -1,6 +1,5 @@
 node_modules/
 incomplete/
-unsorted/
 .vscode/
 __pycache__/
 .wolf*
