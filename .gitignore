@@ -3,3 +3,5 @@ incomplete/
 .vscode/
 __pycache__/
 .wolf*
+python-test-framework/
+.pytest_cache/
