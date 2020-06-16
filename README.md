@@ -26,4 +26,5 @@ JavaScript quick tests are executed with Quokka.js.
 
 Python tests are executed with Wolf for Visual Studio Code.
 
-Both extensions provide instant results while the code is being written.
+These extensions are similar - both provide flycheck functionality.
+Code is being evaluated while it is being written, allowing output of tests viewed in real-time.
