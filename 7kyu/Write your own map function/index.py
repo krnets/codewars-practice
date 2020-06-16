@@ -1,0 +1,33 @@
+""" 7kyu - Write your own map function.
+
+In this kata, you need to make your own map function. 
+The way map works is that it accepts two arguments: 
+the first one is a function, the second one is an array, a tuple, or a string. 
+
+It goes through the array, applying the function to each element of an array 
+and storing the result in a new array. 
+The new array is the result of the map function. 
+
+You should return a list (python 2 style) instead of a generator (python 3).
+
+Note: as Python already has a built-in map function, that is disabled.
+
+map(sum, [[1, 2, 3], [4, 5], [6, 7, 8]])  ==>  [6, 9, 21]
+map(str, [1, 2, 3])  ==>  ['1', '2', '3']
+map(int, ['34', '23'])  ==>  [34, 23] """
+
+
+def map(function, iterable):
+    return [function(x) for x in iterable]
+
+
+q = map(sum, [[1, 2, 3], [4, 5], [6, 7, 8]]), [6, 9, 21]
+q
+q = map(str, [1, 2, 3]), ['1', '2', '3']
+q
+q = map(int, ['34', '23']), [34, 23]
+q
+q = map(ord, 'Hello'), [72, 101, 108, 108, 111]
+q
+q = map(chr, [87, 111, 114, 108, 100]), ['W', 'o', 'r', 'l', 'd']
+q
