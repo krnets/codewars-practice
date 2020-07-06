@@ -5,3 +5,7 @@ __pycache__/
 .wolf*
 python-test-framework/
 .pytest_cache/
+out/
+*.class
+.idea/
+
