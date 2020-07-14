@@ -28,3 +28,5 @@ Python tests are executed with Wolf for Visual Studio Code.
 
 These extensions are similar - both provide flycheck functionality.
 Code is being evaluated while it is being written, allowing output of tests viewed in real-time.
+
+Java tests are standard JUnit/Hamcrest that comes with IntelliJ IDEA.
