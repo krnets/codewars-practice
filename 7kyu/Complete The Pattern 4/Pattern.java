@@ -36,18 +36,27 @@ public class Pattern {
                 .collect(Collectors.joining("\n"));
     }
 }
-
 /*
 public class Pattern {
     public static String pattern(int n) {
-        var sb = new StringBuilder();
+        var res = new StringBuilder();
         for (int i = 1; i <= n; i++) {
             for (int j = i; j <= n; j++) {
-                sb.append(j);
+                res.append(j);
             }
-            sb.append("\n");
+            res.append("\n");
         }
-        return sb.toString().trim();
+        return res.toString().trim();
+    }
+}
+*/
+/*
+public class Pattern {
+    public static String pattern(int n) {
+        String row = "", output = "";
+        while (n > 0)
+            output = (row = n-- + row) + (output.isEmpty() ? "" : "\n") + output;
+        return output;
     }
 }
 */
