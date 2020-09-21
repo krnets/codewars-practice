@@ -9,7 +9,16 @@ Codewars is a community of developers focused on improving coding skills by work
 
 - Kyu: is a mark of kata difficulty as well as user rank on Codewars (starting from 8 kyu and working towards 1 kyu)
 
-Currently ranked `2 kyu` with 1850+ katas completed.
+Currently ranked `2 kyu` overall with 1850+ katas completed.
+
+Total Languages Trained: 3
+Highest Trained: JavaScript (2 kyu)
+Most Recent: Java
+
+Java: 3 kyu
+JavaScript: 2 kyu
+Python: 3 kyu
+
 
 ### [Ranking](http://www.codewars.com/about)
 ```
