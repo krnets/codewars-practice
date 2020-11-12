@@ -10,3 +10,10 @@ out/
 .idea/
 venv/
 
+# gradle build files and folders
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
