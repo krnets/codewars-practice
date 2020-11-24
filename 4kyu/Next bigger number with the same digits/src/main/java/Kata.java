@@ -10,14 +10,14 @@ public class Kata {
     private static long findNext(char[] digits, int length) {
         int i;
         for (i = length - 1; i > 0; i--) {
-            if (digits[i] > digits[i - 1])
+            if (digits[i - 1] < digits[i])
                 break;
         }
         if (i == 0) {
             return -1L;
         }
         int min = i;
-        int last = digits[i - 1];
+        char last = digits[i - 1];
         for (int j = i + 1; j < length; j++) {
             if (digits[j] > last && digits[j] < digits[min])
                 min = j;

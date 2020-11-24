@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SmallTests {
+public class SimpleTests {
 
     @Test
     public void smallTest1() {
