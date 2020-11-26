@@ -9,15 +9,15 @@ Codewars is a community of developers focused on improving coding skills by work
 
 - Kyu: is a mark of kata difficulty as well as user rank on Codewars (starting from 8 kyu and working towards 1 kyu)
 
-Currently ranked `2 kyu` overall with 1850+ katas completed.
+Currently ranked `2 kyu` overall with 1900+ katas completed.
 
-Total Languages Trained: 3
-Highest Trained: JavaScript (2 kyu)
-Most Recent: Java
+  Total Languages Trained: 3
+  Highest Trained: JavaScript
+  Most Recent: Java
 
-Java: 3 kyu
-JavaScript: 2 kyu
-Python: 3 kyu
+  Java: 3 kyu
+  Python: 3 kyu
+  JavaScript: 2 kyu
 
 
 ### [Ranking](http://www.codewars.com/about)
@@ -31,11 +31,11 @@ Python: 3 kyu
 
 ### Tests
 
-JavaScript quick tests are executed with Quokka.js.
+JavaScript tests are executed with Quokka.js.
 
-Python tests are executed with Wolf for Visual Studio Code.
+Python tests are run with Wolf for VSCode.
 
-These extensions are similar - both provide flycheck functionality.
-Code is being evaluated while it is being written, allowing output of tests viewed in real-time.
+Both extensions are similar in how they provide flycheck functionality.
+Code is being evaluated as it is being written, allowing to view output of tests in real-time.
 
-Java tests are standard JUnit/Hamcrest that comes with IntelliJ IDEA.
+Java tests are standard JUnit that are run manually.
