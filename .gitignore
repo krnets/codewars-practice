@@ -17,3 +17,8 @@ gradle/
 gradlew
 gradlew.bat
 
+# c# build files and folders
+bin/
+obj/
+Folder.DotSettings.user
+
