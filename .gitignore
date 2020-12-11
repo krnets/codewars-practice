@@ -20,5 +20,7 @@ gradlew.bat
 # c# build files and folders
 bin/
 obj/
+.vs/
 Folder.DotSettings.user
+*.sln
 

@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class Triangular_Test {
+public class TriangularTest {
     @Test
     public void test_Two_Should_Be_Three() throws Exception {
         assertEquals(3, Triangular.triangular(2));
