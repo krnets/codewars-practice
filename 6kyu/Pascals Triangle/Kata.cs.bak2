@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+using System.Linq;
+
+public static class Kata
+{
+    public static List<int> PascalsTriangle(int n)
+    {
+        var triangle = new int[n][];
+
+        for (int row = 0; row < n; row++)
+        {
+            triangle[row] = new int[row + 1];
+
+            for (int idx = 0; idx <= row; idx++)
+                if (idx == 0 || idx == row)
+                    triangle[row][idx] = 1;
+                else
+                    triangle[row][idx] = triangle[row - 1][idx - 1] + triangle[row - 1][idx];
+        }
+
+        return triangle.SelectMany(i => i).ToList();
+    }
+}
