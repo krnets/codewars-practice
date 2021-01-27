@@ -21,6 +21,6 @@ gradlew.bat
 bin/
 obj/
 .vs/
-Folder.DotSettings.user
+*.DotSettings.user
 *.sln
 
