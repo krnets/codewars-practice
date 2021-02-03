@@ -41,4 +41,4 @@ Python tests are run with Wolf for VSCode.
 Both extensions are similar in how they provide flycheck functionality.
 Code is being evaluated as it is being written, allowing to view output of tests in real-time.
 
-Java and C# tests run manually.
+Java and C# tests are run manually in an IDE (JetBrains IntelliJ and Visual Studio 2019, respectively).
