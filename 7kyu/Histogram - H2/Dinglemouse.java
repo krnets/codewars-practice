@@ -25,7 +25,6 @@ Notes:  There are no trailing spaces on the lines
 */
 
 
-/*
 import java.util.Arrays;
 
 public class Dinglemouse {
@@ -48,7 +47,6 @@ public class Dinglemouse {
         return out.toString();
     }
 }
-*/
 
 
 /*
@@ -63,19 +61,3 @@ public class Dinglemouse {
                 .collect(Collectors.joining());
     }
 }
-*/
-/*
-        var sb = new StringBuilder();
-        for (int i = results.length - 1; i >= 0; i--) {
-            sb.append(i + 1);
-            sb.append("|");
-            sb.append("\u2588".repeat(results[i] / 2));
-            if (results[i] > 0) {
-                sb.append(" ");
-                sb.append(results[i]);
-                sb.append("%");
-            }
-            sb.append("\n");
-        }
-        return sb.toString();
-*/
