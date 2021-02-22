@@ -1,4 +1,4 @@
-/*using System;
+using System;
 
 public static class Kata
 {
@@ -6,9 +6,9 @@ public static class Kata
     {
         return Convert.ToString(a + b, 2);
     }
-}*/
+}
 
-using System.Text;
+/*using System.Text;
 
 public static class Kata
 {
@@ -25,4 +25,4 @@ public static class Kata
 
         return sb.ToString();
     }
-}
+}*/
