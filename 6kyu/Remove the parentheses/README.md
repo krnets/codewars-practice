@@ -1,4 +1,4 @@
-# Remove the parentheses
+### Remove the parentheses
 
 In this kata you are given a string for example:
 
@@ -12,10 +12,10 @@ The example above would return:
 
 Notes
 
-	Other than parentheses only letters and spaces can occur in the string. 
-	Don't worry about other brackets like "[]" and "{}" as these will never appear.
-	There can be multiple parentheses.
-	The parentheses can be nested.
+* Other than parentheses only letters and spaces can occur in the string. 
+* Don't worry about other brackets like "[]" and "{}" as these will never appear.
+* There can be multiple parentheses.
+* The parentheses can be nested.
 
 
 
