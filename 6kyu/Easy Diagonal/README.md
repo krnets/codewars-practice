@@ -1,4 +1,4 @@
-## Easy Diagonal
+### Easy Diagonal
 
 In the drawing below we have a part of the Pascal's triangle, lines are numbered from **zero** (top).
 The left diagonal in pale blue with only numbers equal to 1 is diagonal **zero**, then in dark green 
