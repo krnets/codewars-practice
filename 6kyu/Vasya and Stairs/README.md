@@ -1,4 +1,4 @@
-## Vasya and Stairs
+### Vasya and Stairs
 
 Vasya wants to climb up a stair of certain amount of steps (Input parameter 1). There are 2 simple rules that he has to stick to.
 
