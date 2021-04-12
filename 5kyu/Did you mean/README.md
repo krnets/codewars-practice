@@ -20,6 +20,21 @@ things.findMostSimilar("coddwars"); // must return "codewars"
 Dictionary languages = new Dictionary(new String[]{"javascript", "java", "ruby", "php", "python", "coffeescript"});
 languages.findMostSimilar("heaven"); // must return "java"
 languages.findMostSimilar("javascript"); // must return "javascript" (same words are obviously the most similar ones)
+``` 
+.
+.
+.
+``` csharp
+var fruits = new Kata(new List<string> { "cherry", "pineapple", "melon", "strawberry", "raspberry" });
+fruits.FindMostSimilar("strawbery"); // must return "strawberry"
+fruits.FindMostSimilar("berry"); // must return "cherry"
+
+things = new Dictionary(new List<string> { "stars", "mars", "wars", "codec", "codewars" });
+things.FindMostSimilar("coddwars"); // must return "codewars"
+
+languages = new Dictionary(new List<string> { "javascript", "java", "ruby", "php", "python", "coffeescript" });
+languages.FindMostSimilar("heaven"); // must return "java"
+languages.FindMostSimilar("javascript"); // must return "javascript" (same words are obviously the most similar ones)
 ```
 
 I know, many of you would disagree that Java is more similar to heaven than all the other ones, but in this kata it is ;)
