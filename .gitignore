@@ -24,3 +24,12 @@ obj/
 *.DotSettings.user
 *.sln
 
+# c++ 
+doctest.h
+*.exe
+*.obj
+Debug/
+*.vcxproj*
+
+
+
