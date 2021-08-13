@@ -1,0 +1,15 @@
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "../../doctest.h"
+#include "solve.cpp"
+
+TEST_CASE("testing FakeBin")
+{
+	SUBCASE("BasicTests")
+	{
+		CHECK(fakeBin("45385593107843568") == "01011110001100111");
+		CHECK(fakeBin("509321967506747") == "101000111101101");
+		CHECK(fakeBin("366058562030849490134388085") == "011011110000101010000011011");
+		CHECK(fakeBin("15889923") == "01111100");
+		CHECK(fakeBin("800857237867") == "100111001111");
+	}
+}
