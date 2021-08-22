@@ -12,10 +12,11 @@ Codewars is a community of developers focused on improving coding skills by work
 Currently ranked `2 kyu` overall with 2100+ katas completed.
 
 ```
-  Total Languages Trained: 4
+  Total Languages Trained: 5
   Highest Trained: JavaScript
-  Most Recent: C#
+  Most Recent: C++
 
+  C++: 6 kyu
   C#: 3 kyu
   Java: 3 kyu
   Python: 3 kyu
@@ -42,3 +43,5 @@ Both extensions are similar in how they provide flycheck functionality.
 Code is being evaluated as it is being written, allowing to view output of tests in real-time.
 
 Java and C# tests are run manually in an IDE (JetBrains IntelliJ and Visual Studio 2019, respectively).
+
+C++ tests are run with [doctest](https://github.com/onqtam/doctest) *header-only* library.
