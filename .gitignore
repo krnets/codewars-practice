@@ -31,5 +31,8 @@ doctest.h
 Debug/
 *.vcxproj*
 
+# vim undo files
+*~
+
 
 
