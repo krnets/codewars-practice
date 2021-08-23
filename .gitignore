@@ -28,7 +28,11 @@ obj/
 doctest.h
 *.exe
 *.obj
+*.log
+*.pdb
 Debug/
+x64/
+Release/
 *.vcxproj*
 
 # vim undo files
