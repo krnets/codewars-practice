@@ -25,7 +25,6 @@ obj/
 *.sln
 
 # c++ 
-doctest.h
 *.exe
 *.obj
 *.log
