@@ -21,7 +21,7 @@ gradlew.bat
 bin/
 obj/
 .vs/
-*.DotSettings.user
+*.user
 *.sln
 
 # c++ 
@@ -34,8 +34,6 @@ x64/
 Release/
 *.vcxproj*
 
-# vim undo files
+# undo files
 *~
-
-
-
+*.bak
