@@ -16,7 +16,7 @@ Currently ranked `2 kyu` overall with 2100+ katas completed.
   Highest Trained: JavaScript
   Most Recent: C++
 
-  C++: 5 kyu
+  C++: 4 kyu
   C#: 3 kyu
   Java: 3 kyu
   Python: 3 kyu
