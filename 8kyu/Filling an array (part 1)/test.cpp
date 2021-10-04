@@ -1,11 +1,11 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "../../doctest.h"
-#include "solve.cpp"
+#include <doctest/doctest.h>
+#include "solve.h"
 #include <vector>
 
 TEST_CASE("testing Example_Tests")
 {
-	using V = std::vector<int>;
+	using V = vector<int>;
 
 	SUBCASE("example_tests")
 	{

@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include <cinttypes>
 #include <vector>
+#include <range/v3/algorithm/sort.hpp>
 
 /*
 uint64_t descendingOrder(uint64_t a)
@@ -25,6 +26,7 @@ uint64_t descendingOrder(uint64_t a)
 }
 */
 
+/*
 uint64_t descendingOrder(uint64_t a)
 {
 	auto s = std::to_string(a);
@@ -32,4 +34,22 @@ uint64_t descendingOrder(uint64_t a)
 
 	return std::stoul(s);
 }
+*/
 
+/*
+uint64_t descendingOrder(uint64_t a)
+{
+	auto s = std::to_string(a);
+	ranges::sort(s, std::greater());
+
+	return std::stoul(s);
+}
+*/
+
+uint64_t descendingOrder(uint64_t a)
+{
+	auto s = std::to_string(a);
+	sort(s.rbegin(), s.rend());
+
+	return std::stoul(s);
+}

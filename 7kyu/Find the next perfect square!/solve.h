@@ -1,7 +1,6 @@
 ﻿#pragma once
 #include <cmath>
 
-// long int findNextSquare(long int sq)
 long long findNextSquare(long long sq)
 {
 	auto root = sqrt(sq) + 1;

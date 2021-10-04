@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "solve.cpp"
-#include "../../doctest.h"
+#include <doctest/doctest.h>
+#include "solve.h"
 
 TEST_CASE("testing sum of positive number")
 {

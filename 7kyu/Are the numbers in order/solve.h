@@ -11,7 +11,16 @@ bool isAscOrder(std::vector<int> arr)
 }
 */
 
+/*
 bool isAscOrder(std::vector<int> arr)
 {
 	return std::is_sorted(arr.begin(), arr.end());
+}
+*/
+
+#include <range/v3/algorithm/is_sorted.hpp>
+
+bool isAscOrder(std::vector<int> arr)
+{
+	return ranges::is_sorted(arr);
 }

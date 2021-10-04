@@ -1,7 +1,10 @@
+#pragma once
 #include <vector>
+#include <range/v3/algorithm/min_element.hpp>
 
-using namespace std;
+using std::vector;
 
+/*
 int findSmallest(vector<int> list)
 {
 	int min = INT32_MAX;
@@ -12,6 +15,7 @@ int findSmallest(vector<int> list)
 
 	return min;
 }
+*/
 
 /*
 #include <algorithm>
@@ -22,3 +26,8 @@ int findSmallest(std::vector<int> list)
 	return *min_element(list.begin(), list.end());
 }
 */
+
+int findSmallest(vector<int> list)
+{
+	return *ranges::min_element(list);
+}

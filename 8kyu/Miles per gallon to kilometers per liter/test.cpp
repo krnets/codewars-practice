@@ -6,8 +6,8 @@ TEST_CASE("testing converter")
 {
 	SUBCASE("ExampleTests")
 	{
-		// CHECK(converter(12) == 4.25);
-		// CHECK(converter(24) == 8.50);
+		CHECK(converter(12) == 4.25);
+		CHECK(converter(24) == 8.50);
 		CHECK(converter(36) == 12.74);
 	}
 }

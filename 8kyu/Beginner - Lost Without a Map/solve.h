@@ -1,6 +1,9 @@
-#include <vector>
+#pragma once
 
-using namespace std;
+#include <range/v3/view/transform.hpp>
+#include <range/v3/to_container.hpp>
+
+using std::vector;
 
 /*
 vector<int> maps(const vector<int>& values)
@@ -29,7 +32,7 @@ vector<int> maps(const vector<int>& values)
 }
 */
 
-
+/*
 vector<int> maps(const vector<int>& values)
 {
 	vector<int> result = values;
@@ -37,4 +40,12 @@ vector<int> maps(const vector<int>& values)
 	for (int& x : result) x *= 2;
 
 	return result;
+}
+*/
+
+vector<int> maps(const vector<int>& values)
+{
+	return values
+		| ranges::views::transform([](int x) { return x * 2; })
+		| ranges::to<vector<int>>();
 }

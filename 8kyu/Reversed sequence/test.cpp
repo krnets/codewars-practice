@@ -1,7 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "../../doctest.h"
-#include "solve.cpp"
-#include <vector>
+#include <doctest/doctest.h>
+#include "solve.h"
 
 TEST_CASE("testing ReverseSeq")
 {

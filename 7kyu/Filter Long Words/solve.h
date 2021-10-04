@@ -1,30 +1,6 @@
 ﻿#pragma once
 
-#include <vector>
-#include <string>
 #include <algorithm>
-
-#include <range/v3/all.hpp>
-#include <range/v3/view/split.hpp>
-#include <range/v3/to_container.hpp>
-#include <range/v3/algorithm/remove_if.hpp>
-
-/*
-std::vector<std::string> filter_long_words(const std::string& sentence, int n)
-{
-	using namespace ranges;
-
-	auto f = [n](auto word) { return word.size() <= n; };
-
-	std::vector<std::string> vec = sentence
-		| views::split(' ')
-		| to<std::vector<std::string>>();
-
-	vec.erase(std::ranges::remove_if(vec, f).begin(), vec.end());
-
-	return vec;
-}
-*/
 
 using std::vector;
 using std::string;
@@ -58,6 +34,7 @@ vector<string> filter_long_words(const string& sentence, int n)
 	return vec;
 }*/
 
+/*
 vector<string> filter_long_words(const string& sentence, int n)
 {
 	std::istringstream iss(sentence);
@@ -69,4 +46,18 @@ vector<string> filter_long_words(const string& sentence, int n)
 			vec.push_back(word);
 
 	return vec;
+}
+*/
+
+#include <range/v3/view.hpp>
+
+using namespace ranges;
+
+vector<string> filter_long_words(const string& sentence, int n)
+{
+	vector<string> vec = sentence | views::split(' ') | to<vector<string>>();
+
+	auto f = [n](auto word) { return word.size() > n; };
+
+	return vec | views::filter(f) | ranges::to<vector<string>>();
 }

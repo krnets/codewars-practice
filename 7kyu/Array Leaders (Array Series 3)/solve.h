@@ -3,7 +3,7 @@
 #include <numeric>
 #include <vector>
 
-using namespace std;
+using std::vector;
 
 /*
 vector<int> arrayLeaders(const vector<int>& numbers)
@@ -54,3 +54,4 @@ vector<int> arrayLeaders(const vector<int>& numbers)
 
 	return v;
 }
+

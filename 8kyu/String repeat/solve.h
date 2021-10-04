@@ -1,6 +1,10 @@
-#include <string>
+#pragma once
 
-using namespace std;
+#include <string>
+#include <range/v3/all.hpp>
+
+using namespace ranges;
+using std::string;
 
 /*
 string repeat_str(size_t repeat, const string& str)
@@ -16,6 +20,7 @@ string repeat_str(size_t repeat, const string& str)
 }
 */
 
+/*
 string repeat_str(size_t repeat, const string& str)
 {
 	string result;
@@ -25,4 +30,11 @@ string repeat_str(size_t repeat, const string& str)
 
 	return result;
 }
+*/
 
+string repeat_str(size_t repeat, const string& str)
+{
+	return views::repeat_n(str, repeat)
+		| views::join
+		| to<string>();
+}

@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "../../doctest.h"
-#include "solve.cpp"
+#include <doctest/doctest.h>
+#include "solve.h"
 #include <random>
 
 TEST_CASE("testing the_maps_function")

@@ -1,3 +1,7 @@
+#pragma once
+
+#include <numeric>
+
 /*
 #include <vector>
 
@@ -31,8 +35,6 @@ int square_sum(const std::vector<int>& numbers)
 */
 
 /*
-#include <numeric>
-#include <vector>
 
 int square_sum(const std::vector<int>& numbers)
 {
@@ -40,10 +42,17 @@ int square_sum(const std::vector<int>& numbers)
 }
 */
 
-#include <numeric>
-#include <vector>
 
+/*
 int square_sum(const std::vector<int>& numbers)
 {
 	return std::inner_product(numbers.begin(), numbers.end(), numbers.begin(), 0);
+}
+*/
+
+#include <range/v3/numeric/inner_product.hpp>
+
+int square_sum(const std::vector<int>& numbers)
+{
+	return ranges::inner_product(numbers, numbers, 0);
 }
