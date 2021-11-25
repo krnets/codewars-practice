@@ -3,6 +3,7 @@
 using std::vector;
 using std::string;
 
+/*
 class Opstrings3
 {
 public:
@@ -58,6 +59,65 @@ public:
 		res.pop_back();
 
 		return res;
+	}
+
+	template <typename Func>
+	static string oper(Func func, const string& s) { return func(s); }
+};
+*/
+
+#include <range/v3/algorithm/reverse.hpp>
+#include <range/v3/view/tokenize.hpp>
+#include <range/v3/view/join.hpp>
+#include <range/v3/view/zip_with.hpp>
+#include <range/v3/to_container.hpp>
+
+using namespace ranges;
+
+class Opstrings3
+{
+public:
+	static void rot90antiClock(vector<string>& v)
+	{
+		int n = v.size();
+
+		for (int i = 0; i < n; ++i)
+			for (int j = i; j < n; ++j)
+				swap(v[i][j], v[j][i]);
+	}
+
+	static string diag1Sym(const string& strng)
+	{
+		auto v = strng | views::tokenize(std::regex{"\\S+"}) | to<vector<string>>();
+
+		rot90antiClock(v);
+
+		return v | views::join('\n') | to<string>();
+	}
+
+	static string rot90Clock(const string& strng)
+	{
+		auto v = strng | views::tokenize(std::regex{"\\S+"}) | to<vector<string>>();
+
+		rot90antiClock(v);
+
+		for (auto& s : v)
+			reverse(s);
+
+		return v | views::join('\n') | to<string>();
+	}
+
+	static string selfieAndDiag1(const string& strng)
+	{
+		auto v1 = strng | views::tokenize(std::regex{"\\S+"}) | to<vector<string>>();
+		auto v2 = v1;
+
+		rot90antiClock(v2);
+
+		auto fn = [](auto& x, auto& y) { return x + '|' + y; };
+		auto r_zip = views::zip_with(fn, v1, v2) | to<vector<string>>();
+
+		return r_zip | views::join('\n') | to<string>();
 	}
 
 	template <typename Func>
