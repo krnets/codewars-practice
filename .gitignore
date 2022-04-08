@@ -39,6 +39,5 @@ Release/
 *.bak
 
 # kotlin
-build.gradle.kts
 settings.gradle.kts
 
