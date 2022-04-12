@@ -12,10 +12,11 @@ Codewars is a community of developers focused on improving coding skills by work
 Currently ranked `2 kyu` overall with 2100+ katas completed.
 
 ```
-  Total Languages Trained: 5
+  Total Languages Trained: 6
   Highest Trained: JavaScript
-  Most Recent: C++
+  Most Recent: Kotlin
 
+  Kotlin: 5 kyu
   C++: 4 kyu
   C#: 3 kyu
   Java: 3 kyu
