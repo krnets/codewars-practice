@@ -1,0 +1,1 @@
+fun printerError(s: String): String = "${s.count { it > 'm' }}/${s.length}"

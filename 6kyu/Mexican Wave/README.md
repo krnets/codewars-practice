@@ -12,7 +12,8 @@ Rules
 ```
 1.  The input string will always be lower case but maybe empty.
 
-2.  If the character in the string is whitespace then pass over it as if it was an empty seat
+2.  If the character in the string is whitespace 
+then pass over it as if it was an empty seat
 ```
 Example
 ```c#
