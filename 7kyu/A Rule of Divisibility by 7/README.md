@@ -34,6 +34,3 @@ Examples:
 seven(371) should return [35, 1]
 seven(1603) should return [7, 2]
 seven(477557101) should return [28, 7]
-
-
-
