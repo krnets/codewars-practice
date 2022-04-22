@@ -6,7 +6,9 @@ Each day a plant is growing by upSpeed meters. Each night that plant's height de
 
 Example
 ```
-For upSpeed = 100, downSpeed = 10 and desiredHeight = 910, the output should be 10.
+For upSpeed = 100, downSpeed = 10 and 
+desiredHeight = 910, 
+the output should be 10.
 
  After day 1 --> 100
  After night 1 --> 90

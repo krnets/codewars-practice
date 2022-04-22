@@ -7,3 +7,14 @@ Modern Roman numerals are written by expressing each decimal digit of the number
 Example:
 ```c#
 RomanDecode.Solution("XXI") -- should return 21
+```
+Numerals:
+```
+Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000

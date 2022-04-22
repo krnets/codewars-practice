@@ -7,8 +7,9 @@ The function will be given an array of letters (chars), each one being a letter 
 Notes:
 
     Letters will always be lowercase.
-    Letters can overflow (see second to last example of the description)
-    If no letters are given, the function should return 'z'
+    Letters can overflow (see second to last example)
+    If no letters are given, 
+    the function should return 'z'
 
 Examples:
 ```c
