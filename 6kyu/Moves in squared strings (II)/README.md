@@ -20,7 +20,8 @@ s = "abcd\nefgh\nijkl\nmnop" -->
 
 or printed:
 ```
-|rotation        |selfie_and_rot
+ rotation         selfie_and_rot
+
 |abcd --> ponm   |abcd --> abcd....
 |efgh     lkji   |efgh     efgh....
 |ijkl     hgfe   |ijkl     ijkl....   
