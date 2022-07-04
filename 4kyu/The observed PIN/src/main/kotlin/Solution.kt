@@ -96,4 +96,3 @@ val adjacentKeys = mapOf(
 fun getPINs(observed: String): List<String> =
     observed.map { adjacentKeys[it]!!.map { key -> "$key" } }
         .reduce { acc, pin -> pin.flatMap { adjacent -> acc.map { it + adjacent } } }
-        .distinct()
