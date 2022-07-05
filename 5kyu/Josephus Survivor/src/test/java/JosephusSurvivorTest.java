@@ -1,8 +1,8 @@
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import java.util.Random;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class JosephusSurvivorTest {
 
@@ -73,7 +73,7 @@ public class JosephusSurvivorTest {
 
     private void josephusTest(final int n, final int k, final int result) {
         String testDescription = String.format("Testing where n = %d and k = %d", n, k);
-        assertEquals(testDescription, result, JosephusSurvivor.josephusSurvivor(n, k));
+        assertEquals(JosephusSurvivor.josephusSurvivor(n, k), result, testDescription);
     }
 
     private int solution(final int n, final int k) {
