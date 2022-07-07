@@ -1,9 +1,9 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class SolutionTest {
+
     @Test
     public void exampleTests() {
         assertArrayEquals(new Object[]{"a", 4}, Solution.longestRepetition("aaaabb"));
