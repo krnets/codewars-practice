@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.7.0"
+    kotlin("jvm") version "1.7.10"
 }
 
 repositories {
@@ -8,7 +8,6 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    testImplementation("org.hamcrest:hamcrest:2.2")
 }
 
 tasks.test {

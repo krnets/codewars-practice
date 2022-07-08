@@ -1,10 +1,6 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-
-import org.junit.runners.JUnit4;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TwoSumTest {
     @Test
@@ -17,10 +13,12 @@ public class TwoSumTest {
     private void doTest(int[] numbers, int[] expected) {
         int target = numbers[expected[0]] + numbers[expected[1]];
         int[] actual = Solution.twoSum(numbers, target);
+
         if (null == actual) {
             System.out.format("Received a null\n");
             assertNotNull(actual);
         }
+
         if (actual.length != 2) {
             System.out.format("Received an array that's not of length 2\n");
             assertTrue(false);
