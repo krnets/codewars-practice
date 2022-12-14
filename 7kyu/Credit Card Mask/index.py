@@ -22,30 +22,19 @@ maskify("Nananananananananananananananana Batman!") == "########################
 # def maskify(cc):
 #     return '#' * (len(cc)-4) + cc[-4:]
 
+
 def maskify(cc):
-    return cc[-4:].rjust(len(cc), '#')
+    return cc[-4:].rjust(len(cc), "#")
 
 
-cc = ''
-r = maskify(cc)
-# "masking: {0}".format(cc)
-q = "{0}  matches  {1}".format(cc, r)
-q
-q = r, cc
+q = maskify("")
 q
 
-cc = '123'
-r = maskify(cc)
-# "masking: {0}".format(cc)
-q = "{0}  matches  {1}".format(cc, r)
-q
-q = r, cc
+q = maskify("123")
 q
 
-cc = 'SF$SDfgsd2eA'
-r = maskify(cc)
-# "masking: {0}".format(cc)
-q = "{0}  matches  {1}".format('########d2eA', r)
+q = maskify("SF$SDfgsd2eA")
 q
-q = r, '########d2eA'
+
+q = maskify("4556364607935616")  # "############5616"
 q

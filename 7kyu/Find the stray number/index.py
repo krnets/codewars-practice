@@ -24,15 +24,23 @@ The input array will always be valid! (odd-length >= 3)
 # def stray(arr):
 #     return [x for x in set(arr) if arr.count(x) == 1][0]
 
+# from functools import reduce
+
+# def stray(arr):
+#     return reduce(lambda prev, cur: prev ^ cur, arr)
+
 from functools import reduce
 
 def stray(arr):
-    return reduce(lambda prev, cur: prev ^ cur, arr)
-
+    return reduce(lambda p, c: p ^ c, arr)
 
 q = stray([1, 1, 1, 1, 1, 1, 2])  # 2
 q
 q = stray([2, 3, 2, 2, 2])  # 3
+q
+q = stray([3, 2, 2, 2, 2])  # 3
+q
+q = stray([17, 17, 3, 17, 17, 17, 17])  # 3
 q
 q = stray([3, 2, 2, 2, 2])  # 3
 q

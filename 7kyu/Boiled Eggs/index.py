@@ -26,9 +26,12 @@ COOKING_TIME = 5
 # def cooking_time(eggs):
 #     return ceil(eggs / POT_CAPACITY) * COOKING_TIME
 
-def cooking_time(eggs):
-    return COOKING_TIME * ((eggs + POT_CAPACITY - 1) // POT_CAPACITY)
+# def cooking_time(eggs):
+#     return COOKING_TIME * ((eggs + POT_CAPACITY - 1) // POT_CAPACITY)
 
+def cooking_time(eggs):
+    pots, remainder = divmod(eggs, 8)
+    return 5 * (pots + bool(remainder))
 
 q = cooking_time(0)  # must return 0
 q

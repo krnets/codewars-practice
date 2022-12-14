@@ -8,18 +8,18 @@ re-invested yearly after paying tax 'T' on the interests that were just gained (
 
 Example:
 
-  Let P be the Principal = 1000.00      
-  Let I be the Interest Rate = 0.05      
-  Let T be the Tax Rate = 0.18      
-  Let D be the Desired Sum = 1100.00
+	Let P be the Principal = 1000.00      
+	Let I be the Interest Rate = 0.05      
+	Let T be the Tax Rate = 0.18      
+	Let D be the Desired Sum = 1100.00
 
 
 After 1st Year -->
-  P = 1041.00
+	P = 1041.00
 After 2nd Year -->
-  P = 1083.86
+	P = 1083.86
 After 3rd Year -->
-  P = 1128.30
+	P = 1128.30
 
 Thus Mr. Scrooge has to wait for 3 years for the initial pricipal to ammount to the desired sum.
 
@@ -31,10 +31,19 @@ however it is best to take into consideration that if the Desired Principal 'D' 
 Principal 'P' this should return 0 Years. """
 
 
+# def calculate_years(principal, interest, tax, desired):
+#     years = 0
+#     while principal < desired:
+#         principal += principal * interest * (1 - tax)
+#         years += 1
+#     return years
+
+
 def calculate_years(principal, interest, tax, desired):
     years = 0
     while principal < desired:
-        principal += principal * interest * (1 - tax)
+        earnings = principal * interest * (1 - tax)
+        principal += earnings
         years += 1
     return years
 

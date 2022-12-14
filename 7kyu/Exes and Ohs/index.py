@@ -25,12 +25,20 @@ XO("zzoo") => false """
 #     s = s.lower()
 #     return s.count('x') == s.count('o')
 
-def xo(s):
-    return sum(1 if c == 'x' else -1 if c == 'o' else 0 for c in s.lower()) == 0
+# def xo(s):
+#     return sum(1 if c == 'x' else -1 if c == 'o' else 0 for c in s.lower()) == 0
 
-q = xo('xo')  # True
+from collections import Counter
+
+def xo(s):
+    freq = Counter(s.lower())
+    # return freq.get('x', 0) == freq.get('o', 0)
+    return freq['x'] == freq['0']
+
+
+q = xo("xo")  # True
 q
-q = xo('xo0')  # True
+q = xo("xo0")  # True
 q
-q = xo('xxxoo')  # False
+q = xo("xxxoo")  # False
 q

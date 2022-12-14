@@ -31,10 +31,25 @@ divisors(30) == 8  # 1, 2, 3, 5, 6, 10, 15, 30 """
 #             count += 1
 #     return count
 
+# def divisors(n):
+#     return sum(1 for x in range(1, n // 2 + 1) if n % x == 0) + 1
+
+
+# def divisors(n):
+#     count = 0
+
+#     for x in range(1, int(n ** 0.5) + 1):
+#         if n % x == 0:
+#             count += 2
+    
+#     return count - (x * x == n)
+
 def divisors(n):
-    return sum(1 for x in range(1, n // 2 + 1) if n % x == 0) + 1
+    return sum(n % x == 0 for x in range(1, n//2 + 1)) + 1
 
 
+q = divisors(2)  # 2
+q
 q = divisors(4)  # 3
 q
 q = divisors(5)  # 2

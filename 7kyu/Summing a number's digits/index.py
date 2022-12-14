@@ -10,8 +10,22 @@ returns the sum of the absolute value of each of the number's decimal digits.
 Let's assume that all numbers in the input will be integer values. """
 
 
+# def sum_digits(number):
+#     return sum(int(x) for x in str(abs(number)))
+
+# def sum_digits(number):
+#     number = abs(number)
+#     sum = 0
+
+#     while number != 0:
+#         sum += number % 10
+#         number //= 10
+
+#     return sum
+
+
 def sum_digits(number):
-    return sum(int(x) for x in str(abs(number)))
+    return sum(map(int, str(abs(number))))
 
 
 q = sum_digits(10)  # 1

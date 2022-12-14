@@ -22,7 +22,14 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real" """
 # def to_jaden_case(s):
 #     return capwords(s)
 
-from string import capwords as to_jaden_case
+# from string import capwords as to_jaden_case
+
+
+# def to_jaden_case(string):
+#     return ' '.join(word.capitalize() for word in string.split())
+
+def to_jaden_case(string):
+    return ' '.join(map(str.capitalize, string.split()))
 
 
 quote = "How can mirrors be real if our eyes aren't real"

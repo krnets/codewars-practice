@@ -13,10 +13,11 @@ The start number will always be smaller than the end number. Both numbers can be
 
 
 # def dont_give_me_five(start, end):
-#     return sum(1 for x in list(range(start, end+1)) if '5' not in str(x))
+#     return sum(1 for x in range(start, end+1) if "5" not in str(x))
+
 
 def dont_give_me_five(start, end):
-    return sum('5' not in str(i) for i in range(start, end+1))
+    return sum("5" not in str(x) for x in range(start, end + 1))
 
 
 q = dont_give_me_five(1, 9)  # 8

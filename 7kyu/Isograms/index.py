@@ -11,13 +11,19 @@ is_isogram("moOse" ) == false # -- ignore letter case """
 # from collections import Counter
 
 # def is_isogram(string):
+#     freq = Counter(string.lower())
+#     return all(x == 1 for x in freq.values())
+
+# def is_isogram(string):
 #     s = string.lower()
 #     return len([x for x in Counter(s).values() if x != 1]) == 0
 
+# def is_isogram(string):
+#     return len(set(string.lower())) == len(string)
+
 
 def is_isogram(string):
-    return len(set(string.lower())) == len(string)
-
+    return len(string) == len(set(string.lower()))
 
 q = is_isogram("Dermatoglyphics")  # True
 q

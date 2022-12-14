@@ -14,9 +14,14 @@ The number will always be a positive integer greater than 0. """
 # def summation(num):
 #     return (1 + num) * num / 2
 
-def summation(num):
-    return sum(range(num + 1))
+# def summation(num):
+#     return sum(range(num + 1))
 
+# def summation(num):
+#     return sum(range(num+1))
+
+def summation(num):
+    return num * (num + 1) // 2
 
 q = summation(2)  # 3  (1 + 2)
 q

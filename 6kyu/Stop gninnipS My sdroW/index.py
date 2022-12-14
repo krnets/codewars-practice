@@ -15,13 +15,13 @@ only letters and spaces. Spaces will be included only when more than one word is
 # def spin_words(sentence):
 #     return ' '.join(x[::-1] if len(x) >= 5 else x for x in sentence.split(' '))
 
-def spin_words(sentence):
-    return ' '.join(word if len(word) < 5 else word[::-1] for word in sentence.split(' '))
+# def spin_words(sentence):
+#     return ' '.join(word if len(word) < 5 else word[::-1] for word in sentence.split(' '))
 
+def spin_words(sentence):
+    return ' '.join(word[::-1] if len(word) >= 5 else word for word in sentence.split())
 
 q = spin_words("Welcome")  # "emocleW"
-q
-q = spin_words("sroirraw wollef yeH")  # 'Hey wollef sroirraw'
 q
 q = spin_words("Hey fellow warriors")  # "Hey wollef sroirraw"
 q

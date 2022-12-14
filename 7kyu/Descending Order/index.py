@@ -8,8 +8,25 @@ Input: 21445 Output: 54421
 Input: 145263 Output: 654321
 Input: 123456789 Output: 987654321 """
 
+# def descending_order(num):
+#     return int(''.join(sorted(str(num), reverse=True)))
+
+
 def descending_order(num):
-    return int(''.join(sorted(str(num), reverse=True)))
+    digits = []
+    ans = 0
+
+    while num:
+        digits.append(num % 10)
+        num = num // 10
+
+    digits.sort(reverse=True)
+
+    for x in digits:
+        ans = ans * 10 + x
+
+    return ans
+
 
 q = descending_order(0)  # 0
 q

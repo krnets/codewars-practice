@@ -24,11 +24,11 @@ N.B. If your solution passes all fixed tests but fails at the random tests,
 make sure you aren't mutating the input array. """
 
 
-def in_asc_order(arr):
-    for i in range(len(arr)-1):
-        if arr[i] > arr[i+1]:
-            return False
-    return True
+# def in_asc_order(arr):
+#     for i in range(len(arr)-1):
+#         if arr[i] > arr[i+1]:
+#             return False
+#     return True
 
 # def in_asc_order(arr):
 #     return arr == sorted(arr)
@@ -36,6 +36,10 @@ def in_asc_order(arr):
 # def in_asc_order(arr):
 #     return all(x < y for x, y in zip(arr, arr[1:]))
 
+from itertools import pairwise
+
+def in_asc_order(arr):
+    return all(x <= y for x,y in pairwise(arr))
 
 # Array of 2 integers
 arr = [1, 2]
@@ -46,7 +50,7 @@ arr = [2, 1]
 q = in_asc_order(arr)  # False
 q
 
-# Array of 3 integers
+# Array of 3 intege
 arr = [1, 2, 3]
 q = in_asc_order(arr)  # True
 q

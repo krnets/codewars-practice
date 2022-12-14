@@ -16,8 +16,9 @@ DNA_strand ("GTAT") # return "CATA" """
 
 
 # def DNA_strand(dna):
-#     complement = {'A': 'T', 'C': 'G', 'T': 'A', 'G': 'C'}
-#     return ''.join(complement[x] for x in list(dna))
+#     complement = {'A':'T', 'T':'A', 'C':'G', 'G':'C'}
+#     return ''.join(complement[c] for c in dna)
+
 
 def DNA_strand(dna):
     return dna.translate(str.maketrans("ACGT", "TGCA"))

@@ -14,8 +14,12 @@ The parameter of accum is a string which includes only letters from a..z and A..
 # def accum(s):
 #     return '-'.join( ''.join([x.upper(), x.lower() * i]) for i, x in enumerate(list(s)))
 
+
+# def accum(s):
+#     return '-'.join((c * i).title() for i, c in enumerate(s, 1))
+
 def accum(s):
-    return '-'.join((x * i).title() for i, x in enumerate(s, 1))
+    return '-'.join(c.upper() + c.lower() * i for i, c in enumerate(s))
 
 q = accum("ZpglnRxqenU") # "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"
 q

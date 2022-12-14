@@ -18,24 +18,28 @@ Don't change the order of the elements that are left. """
 # def remove_smallest(numbers):
 #     if not numbers:
 #         return numbers
-#     clone = numbers[::]
-#     clone.remove(min(numbers))
-#     return clone
-
-# def remove_smallest(numbers):
-#     clone = numbers[:]
-#     if clone:
-#         clone.remove(min(numbers))
-#     return clone
-
-# def remove_smallest(numbers):
-#     if not numbers:
-#         return numbers
 #     idx = numbers.index(min(numbers))
 #     return numbers[0:idx] + numbers[idx+1:]
 
+# def remove_smallest(nums):
+#     return nums[:nums.index(min(nums))] + nums[nums.index(min(nums)) + 1:] if nums else nums
+
+# def remove_smallest(nums):
+#     if not nums:
+#         return nums
+
+#     idx_smallest = nums.index(min(nums))
+#     return nums[:idx_smallest] + nums[idx_smallest + 1:]
+
+
 def remove_smallest(nums):
-    return nums[:nums.index(min(nums))] + nums[nums.index(min(nums)) + 1:] if nums else nums
+    if not nums:
+        return nums
+
+    clone = nums[:]
+    clone.remove(min(clone))
+
+    return clone
 
 
 q = remove_smallest([1, 2, 3, 4, 5])  # [2,3,4,5]
@@ -43,4 +47,6 @@ q
 q = remove_smallest([5, 3, 2, 1, 4])  # [5,3,2,4]
 q
 q = remove_smallest([2, 2, 1, 2, 1])  # [2,2,2,1]
+q
+q = remove_smallest([])  # [2,2,2,1]
 q
