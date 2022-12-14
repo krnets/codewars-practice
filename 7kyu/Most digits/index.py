@@ -9,17 +9,24 @@ If two numbers in the argument array have the same number of digits, return the 
 #     res = [len(str(x)) for x in arr]
 #     return arr[res.index(max(res))]
 
+
+# def find_longest(arr):
+#     return max(arr, key=lambda x: len(str(x)))
+
+from math import log10
+
+
 def find_longest(arr):
-    return max(arr, key=lambda x: len(str(x)))
+    return max(arr, key=lambda n: int(log10(n)))
 
 
-q = find_longest([1, 10, 100]), 100
+q = find_longest([1, 10, 100])  # 100
 q
-q = find_longest([9000, 8, 800]), 9000
+q = find_longest([9000, 8, 800])  # 9000
 q
-q = find_longest([8, 900, 500]), 900
+q = find_longest([8, 900, 500])  # 900
 q
-q = find_longest([3, 40000, 100]), 40000
+q = find_longest([3, 40000, 100])  # 40000
 q
-q = find_longest([1, 200, 100000]), 100000
+q = find_longest([1, 200, 100000])  # 100000
 q

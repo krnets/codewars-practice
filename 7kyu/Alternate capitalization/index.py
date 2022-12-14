@@ -17,9 +17,24 @@ The input will be a lowercase string with no spaces. """
 #     res = ''.join(s[i].lower() if i % 2 else s[i].upper() for i in range(len(s)))
 #     return [res, res.swapcase()]
 
+
+# def capitalize(s):
+#     a, b = "", ""
+
+#     for i, c in enumerate(s):
+#         if i % 2 == 0:
+#             a += c.upper()
+#             b += c
+#         else:
+#             a += c
+#             b += c.upper()
+
+#     return [a, b]
+
+
 def capitalize(s):
-    s = ''.join(c if i % 2 else c.upper() for i, c in enumerate(s))
-    return [s, s.swapcase()]
+    res = ''.join(c.upper() if i % 2 == 0 else c for i, c in enumerate(s))
+    return [res, res.swapcase()]
 
 
 q = capitalize("abcdef")  # ['AbCdEf', 'aBcDeF']

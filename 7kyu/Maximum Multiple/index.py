@@ -19,13 +19,19 @@ maxMultiple (37,200) ==> return (185)
 (185) is divisible by (37) , (185) is less than or equal to bound (200) , and (185) is > 0 . """
 
 
-def max_multiple(divisor, bound):
-    for x in range(bound+1)[-1::-1]:
-        if x % divisor == 0:
-            return x
+# def max_multiple(divisor, bound):
+#     for x in range(bound+1)[-1::-1]:
+#         if x % divisor == 0:
+#             return x
 
 # def max_multiple(divisor, bound):
 #     return bound - (bound % divisor)
+
+
+def max_multiple(divisor, bound):
+    for i in reversed(range(bound + 1)):
+        if i % divisor == 0:
+            return i
 
 
 q = max_multiple(2, 7)  # 6

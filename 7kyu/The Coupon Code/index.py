@@ -18,7 +18,7 @@ checkCoupon("123", "123", "July 9, 2015", "July 2, 2015")  == False """
 #     exp = datetime.datetime.strptime(expiration_date, '%B %d, %Y')
 #     return entered_code is correct_code and cur <= exp
 
-from datetime import datetime
+from datetime import datetime as dt
 
 # def check_coupon(entered_code, correct_code, current_date, expiration_date):
 #     format = '%B %d, %Y'
@@ -26,14 +26,20 @@ from datetime import datetime
 #     expiration = datetime.strptime(expiration_date, format)
 #     return entered_code is correct_code and current <= expiration
 
+# def check_coupon(entered_code, correct_code, current_date, expiration_date):
+#     parse = datetime.strptime
+#     format = '%B %d, %Y'
+#     return entered_code is correct_code and parse(current_date, format) <= parse(expiration_date, format)
+
+
 def check_coupon(entered_code, correct_code, current_date, expiration_date):
-    parse = datetime.strptime
-    format = '%B %d, %Y'
-    return entered_code is correct_code and parse(current_date, format) <= parse(expiration_date, format)
+    format = "%B %d, %Y"
+    current = dt.strptime(current_date, format)
+    expiration = dt.strptime(expiration_date, format)
+    return entered_code is correct_code and current <= expiration
 
 
-q = check_coupon('123', '123', 'September 5, 2014', 'October 1, 2014')  # True
+q = check_coupon("123", "123", "September 5, 2014", "October 1, 2014")  # True
 q
-q = check_coupon('123a', '123', 'September 5, 2014',
-                 'October 1, 2014')  # False
+q = check_coupon("123a", "123", "September 5, 2014", "October 1, 2014")  # False
 q

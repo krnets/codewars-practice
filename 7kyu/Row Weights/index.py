@@ -31,14 +31,24 @@ rowWeights([80])  ==>  return (80, 0)
 #     return (team1, team2)
 
 # def row_weights(array):
-#     return sum(array[::2]), sum(array[1::2])
+#     res = [0, 0]
+#     for i, n in enumerate(array):
+#         res[i % 2] += n
+#     return tuple(res)
+
+
+# def row_weights(array):
+#     team1, team2 = 0, 0
+#     for i, x in enumerate(array):
+#         if i % 2 == 0:
+#             team1 += x
+#         else:
+#             team2 += x
+#     return (team1, team2)
 
 
 def row_weights(array):
-    res = [0, 0]
-    for i, n in enumerate(array):
-        res[i % 2] += n
-    return tuple(res)
+    return sum(array[::2]), sum(array[1::2])
 
 
 q = row_weights([80])  # (80,0)

@@ -14,11 +14,11 @@ predict_age(65, 60, 75, 55, 60, 63, 64, 45) == 86
 
 Note: the result should be rounded down to the nearest integer. """
 
-import math
+from math import sqrt
 
 
 def predict_age(*ages):
-    return math.sqrt(sum(x * x for x in ages)) // 2
+    return sqrt(sum(x * x for x in ages)) // 2
 
 
 q = predict_age(65, 60, 75, 55, 60, 63, 64, 45)  # 86

@@ -42,11 +42,46 @@ For example, start with 87:
 #         steps += 1
 #     return steps
 
-def palindrome_chain_length(n, times=0):
-    reversed = int(str(n)[::-1])
-    if reversed == n:
-        return times
-    return palindrome_chain_length(n + reversed, times + 1)
+# def palindrome_chain_length(n, times=0):
+#     reversed = int(str(n)[::-1])
+#     if reversed == n:
+#         return times
+#     return palindrome_chain_length(n + reversed, times + 1)
+
+
+# def palindrome_chain_length(n):
+#     steps = 0
+
+#     def is_palindrome(m):
+#         s = str(m)
+#         return s == s[::-1]
+
+#     while not is_palindrome(n):
+#         n += int(str(n)[::-1])
+#         steps += 1
+
+#     return steps
+
+
+# def palindrome_chain_length(n):
+#     steps = 0
+
+#     while str(n) != (reversed_str_n := str(n)[::-1]):
+#         n += int(reversed_str_n)
+#         steps += 1
+
+#     return steps
+
+
+def palindrome_chain_length(n):
+    steps = 0
+
+    while (s := str(n)) != (reversed_str_n := s[::-1]):
+        n += int(reversed_str_n)
+        steps += 1
+
+    return steps
+
 
 q = palindrome_chain_length(87)  # 4
 q

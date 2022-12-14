@@ -23,11 +23,33 @@ Triangular Numbers cannot be negative so return 0 if a negative number is given.
 #         triangular.append(i * (i + 1) // 2)
 #     return sum(triangular)
 
+
+# def sum_triangular_numbers(n):
+#     cur = 0
+#     ans = 0
+
+#     for i in range(1, n + 1):
+#         for j in range(cur, cur + i):
+#             cur += 1
+#         ans += cur
+
+#     return 0 if n < 0 else ans
+
+
 # def sum_triangular_numbers(n):
 #     return sum(i * (i + 1) // 2 for i in range(n + 1))
 
+
+# def sum_triangular_numbers(n):
+#     return sum(i * (n - i + 1) for i in range(n + 1))
+
+
+# def sum_triangular_numbers(n):
+#     return max(0, n * (n + 1) * (n + 2) // 6)
+
+
 def sum_triangular_numbers(n):
-    return n * (n + 1) * (n + 2) // 6 if n > 0 else 0
+    return 0 if n < 0 else n * (n + 1) * (n + 2) // 6
 
 
 q = sum_triangular_numbers(6)  # 56
