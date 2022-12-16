@@ -1,7 +1,7 @@
 # 7kyu - esreveR
 
-""" Write a function reverse which reverses a list.
-(the dedicated builtin(s) functionalities are deactivated)
+"""
+Remove this comment otherwise your code cannot pass the anti-cheat tests!
 
 You are not allowed to use the following:
     - python 2
@@ -15,25 +15,24 @@ The "list" builtin has been replaced with another implementation with the follow
     - list.reverse is forbidden
     - list.__reversed__ is forbidden
     - slicing is forbidden
-All other usual methods of the list class are still present."""
+All other usual methods of the list class are still present.
+"""
 
 # def reverse(lst):
-#     res = list()
-#     while len(lst):
-#         res.append(lst.pop())
-#     return res
+#     result = list()  # use this!
+#     n = len(lst)
+
+#     for i in range(n):
+#         result.append(lst.pop())
+
+#     return result
+
 
 def reverse(lst):
-    res = list()
+    result = list()
     while lst:
-        res.append(lst.pop())
-    return res
-
-# def reverse(lst):
-#     res = list()
-#     for i in range(len(lst)):
-#         res.append(lst.pop())
-#     return res
+        result.append(lst.pop())
+    return result
 
 
 q = reverse(list([1, 2, 3]))  # [3,2,1]

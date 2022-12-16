@@ -1,9 +1,9 @@
 import unittest
 
-JAVA = 'Java'
-COFFEE = 'Coffee'
-SCRIPT = 'Script'
-MOCHA_MISSING = 'mocha_missing!'
+JAVA = "Java"
+COFFEE = "Coffee"
+SCRIPT = "Script"
+MOCHA_MISSING = "mocha_missing!"
 
 
 def caffeineBuzz(n):
@@ -24,23 +24,27 @@ class TestCaffeineBuzz(unittest.TestCase):
     def test_should_return_java_when_given_n_is_divisible_by_3(self):
         n = 3
         actual = caffeineBuzz(n)
-        self.assertEqual(actual, 'Java')
+        self.assertEqual(actual, "Java")
 
-    def test_should_return_coffee_script_when_given_n_is_divisible_by_3_or_divisible_by_and_divisible_by_4_and_divisible_by_2(self):
+    def test_should_return_coffee_script_when_given_n_is_divisible_by_3_or_divisible_by_and_divisible_by_4_and_divisible_by_2(
+        self,
+    ):
         n = 12
         actual = caffeineBuzz(n)
-        self.assertEqual(actual, 'CoffeeScript')
+        self.assertEqual(actual, "CoffeeScript")
 
-    def test_should_return_coffee_script_when_given_n_is_divisible_by_3_or_divisible_by_and_not_divisible_by_4_and_divisible_by_2(self):
+    def test_should_return_coffee_script_when_given_n_is_divisible_by_3_or_divisible_by_and_not_divisible_by_4_and_divisible_by_2(
+        self,
+    ):
         n = 6
         actual = caffeineBuzz(n)
-        self.assertEqual(actual, 'JavaScript')
+        self.assertEqual(actual, "JavaScript")
 
     def test_should_return_moch_missing_when_given_n_is_1(self):
         n = 1
         actual = caffeineBuzz(n)
-        self.assertEqual(actual, 'mocha_missing!')
+        self.assertEqual(actual, "mocha_missing!")
 
 
-if __name__ == 'main':
-    unittest.main()
+# if __name__ == 'main':
+#     unittest.main()

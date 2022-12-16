@@ -16,6 +16,12 @@ The function will be given a variable amount of arguments, each one being a lett
 #         sum += alpha.index(c)+1
 #     return alpha[sum % 26]
 
+# from string import ascii_letters
+
+# def add_letters(*letters):
+#     idx = sum(map(lambda c: ord(c) - ord("a") + 1, letters)) % 26
+#     return ('z' + ascii_letters)[idx]
+
 # from string import ascii_lowercase
 
 # def add_letters(*letters):
@@ -31,19 +37,26 @@ The function will be given a variable amount of arguments, each one being a lett
 # def add_letters(*letters):
 #     return chr(ord('a') - 1 + (sum(ord(ch) - (ord('a') - 1) for ch in letters) % 26 or 26))
 
+# def add_letters(*letters):
+#     return chr(ord('a') + (sum(ord(ch)-ord('a')+1 for ch in letters)-1) % 26)
+
+
+from string import ascii_lowercase as abc
+
 def add_letters(*letters):
-    return chr(ord('a') + (sum(ord(ch)-ord('a')+1 for ch in letters)-1) % 26)
+    idx = sum(abc.index(c) + 1 for c in letters) % 26 - 1
+    return abc[idx]
 
 
-q = add_letters('a', 'b', 'c')  # 'f'
+q = add_letters("a", "b", "c")  # 'f'
 q
-q = add_letters('a', 'b')  # 'c'
+q = add_letters("a", "b")  # 'c'
 q
-q = add_letters('z')  # 'z'
+q = add_letters("z")  # 'z'
 q
-q = add_letters('z', 'a')  # 'a'
+q = add_letters("z", "a")  # 'a'
 q
-q = add_letters('y', 'c', 'b')  # 'd' # notice the letters overflowing
+q = add_letters("y", "c", "b")  # 'd' # notice the letters overflowing
 q
 q = add_letters()  # 'z'
 q

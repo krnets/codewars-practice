@@ -12,13 +12,21 @@ For any values outside the positive range, return null, nil or None .
 
 Note: 0! is always equal to 1. Negative values should return null;  """
 
+# def factorial(n):
+#     if n < 0:
+#         return None
+#     return 1 if n <= 1 else n * factorial(n - 1)
+
+
 def factorial(n):
     if n < 0:
         return None
-    return 1 if n <= 1 else n * factorial(n - 1)
+    return 1 if n == 0 else n * factorial(n - 1)
 
-# Don't forget the special cases!
-q = factorial(1) # 1
+
+q = factorial(1)  # 1
 q
-q = factorial(5) # 120
+q = factorial(5)  # 120
+q
+q = factorial(-1)  # None
 q

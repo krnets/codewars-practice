@@ -22,9 +22,10 @@ nthSmallest({177,225,243,-169,-12,-5,2,92} ,5) ==> return (92)
 
 
 # def nth_smallest(arr, pos):
-#     return sorted(arr)[pos-1]
+#     return sorted(arr)[pos - 1]
 
 from heapq import nsmallest
+
 
 def nth_smallest(arr, pos):
     return nsmallest(pos, arr)[-1]
