@@ -21,13 +21,21 @@ Keep in mind, you cannot divide by zero. If an attempt to divide by zero is made
 #     except:
 #         return None
 
+# def calculate(num1, operation, num2):
+#     ops = {'+': (lambda x, y: x + y), '-': (lambda x, y: x - y),
+#            '*': (lambda x, y: x * y), '/': (lambda x, y: x / y)}
+#     try:
+#         return ops[operation](num1, num2)
+#     except:
+#         return None
+
 def calculate(num1, operation, num2):
-    ops = {'+': (lambda x, y: x + y), '-': (lambda x, y: x - y),
-           '*': (lambda x, y: x * y), '/': (lambda x, y: x / y)}
-    try:
-        return ops[operation](num1, num2)
-    except:
-        return None
+    match operation:
+        case '+': return num1+num2
+        case '-': return num1-num2
+        case '*': return num1*num2
+        case '/': return num1/num2 if num2 != 0 else None
+        case _: return None
 
 
 q = calculate(3.2, "+", 8)  # 3 11.2, "3.2 + 8 = 11.2"

@@ -23,11 +23,27 @@ For example, repeats([4,5,7,5,4,8]) = 15 because only the numbers 7 and 8 occur 
 # def repeats(arr):  # quadratic time complexity
 #     return sum(x for x in arr if arr.count(x) == 1)
 
-from collections import Counter
+# from collections import Counter
+
+# def repeats(arr):
+#     return sum(k for k, v in Counter(arr).items() if v == 1)
+
+
+# def repeats(arr):
+#     ans = 0
+#     seen = set()
+
+#     for x in arr:
+#         if x in seen:
+#             ans -= x
+#         else:
+#             ans += x
+#             seen.add(x)
+
+#     return ans
 
 def repeats(arr):
-    return sum(k for k, v in Counter(arr).items() if v == 1)
-
+    return sum(set(arr)) * 2 - sum(arr)
 
 q = repeats([4, 5, 7, 5, 4, 8])  # 15
 q
