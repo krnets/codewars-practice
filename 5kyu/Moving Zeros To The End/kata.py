@@ -19,5 +19,14 @@
 # 1, 1, 2, 0
 
 
+# def move_zeros(lst):
+#     return sorted(lst, key=lambda x: not x)
+
+
 def move_zeros(lst):
-    return sorted(lst, key=lambda x: not x)
+    next_non_zero = 0
+    for i in range(len(lst)):
+        if lst[i] != 0:
+            lst[next_non_zero], lst[i] = lst[i], lst[next_non_zero]
+            next_non_zero += 1
+    return lst

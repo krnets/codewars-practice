@@ -1,5 +1,5 @@
 import codewars_test as test
-from solution import rename_columns
+from kata import rename_columns
 from random import randint, sample
 import pandas as pd
 import numpy as np
