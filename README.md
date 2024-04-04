@@ -14,7 +14,7 @@ Currently ranked `2 kyu` overall with 2100+ katas completed.
 ```
   Total Languages Trained: 6
   Highest Trained: JavaScript
-  Most Recent: Kotlin
+  Most Recent: Python
 
   Kotlin: 4 kyu
   C++: 4 kyu
