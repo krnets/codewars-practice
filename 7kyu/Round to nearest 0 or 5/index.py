@@ -13,9 +13,13 @@ should return
 Roundings have to be done like "in real life": 22.5 -> 25 """
 
 
-def round_to_five(numbers):
-    base = 5
-    return [base * int(x / base + base / 10) for x in numbers]
+# def round_to_five(numbers):
+#     base = 5
+#     return [base * int(x / base + base / 10) for x in numbers]
+
+
+def round_to_five(arr):
+    return [5 * (x // 5 + (x % 5 >= 2.5)) for x in arr]
 
 
 q = round_to_five([1, 5, 87, 45, 8, 8])  # [0, 5, 85, 45, 10, 10]

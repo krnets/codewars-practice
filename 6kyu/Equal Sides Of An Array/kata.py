@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import codewars_test as test
 
 
@@ -48,3 +49,16 @@ def fixed_tests():
             ),
             8,
         )
+=======
+def find_even_index(arr):
+    sum_right = sum(arr)
+    sum_left = 0
+
+    for i, x in enumerate(arr):
+        sum_right -= x
+        if sum_left == sum_right:
+            return i
+        sum_left += x
+
+    return -1
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1

@@ -14,7 +14,7 @@ Currently ranked `2 kyu` overall with 2100+ katas completed.
 ```
   Total Languages Trained: 6
   Highest Trained: JavaScript
-  Most Recent: Kotlin
+  Most Recent: Python
 
   Kotlin: 4 kyu
   C++: 4 kyu
@@ -36,13 +36,10 @@ Currently ranked `2 kyu` overall with 2100+ katas completed.
 
 ### Tests
 
+Python tests are run with [Codewars Test Framework](https://github.com/codewars/python-test-framework)
+
 JavaScript tests are executed with Quokka.js.
 
-Python tests are run with Wolf for VSCode.
-
-Both extensions are similar in how they provide flycheck functionality.
-Code is being evaluated as it is being written, allowing to view output of tests in real-time.
-
-Java and C# tests are run manually in an IDE (JetBrains IntelliJ and Visual Studio 2019, respectively).
+Java, Kotlin and C# tests are run manually in IDE (JetBrains IntelliJ and Visual Studio 2022, respectively).
 
 C++ tests are run with [doctest](https://github.com/onqtam/doctest) *header-only* library.
