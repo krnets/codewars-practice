@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import codewars_test as test
 
 
@@ -18,6 +19,8 @@ def fixed_test():
         test.assert_equals(dig_pow(114, 3), 9)
         test.assert_equals(dig_pow(8, 3), 64)
 =======
+=======
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
 # def dig_pow(n, p):
 #     k = sum(int(x) ** (p + i) for i, x in enumerate(str(n)))
 #     return (-1, k // n)[k % n == 0]
@@ -27,4 +30,7 @@ def dig_pow(n, p):
     acc = sum(int(x) ** (p + i) for i, x in enumerate(str(n)))
     k, rem = divmod(acc, n)
     return k if rem == 0 else -1
+<<<<<<< HEAD
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
+=======
 >>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1

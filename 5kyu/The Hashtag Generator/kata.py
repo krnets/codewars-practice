@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import re
 import codewars_test as test
 
@@ -70,6 +71,11 @@ def tests():
             False,
             "Should return False if the final string is longer than 140 chars.",
         )
+=======
+def generate_hashtag(s) -> str or bool:
+    res = "#" + s.title().replace(" ", "")
+    return (res, False)[not s or len(res) > 140]
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
 =======
 def generate_hashtag(s) -> str or bool:
     res = "#" + s.title().replace(" ", "")

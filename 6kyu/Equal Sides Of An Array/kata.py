@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import codewars_test as test
 
 
@@ -50,6 +51,8 @@ def fixed_tests():
             8,
         )
 =======
+=======
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
 def find_even_index(arr):
     sum_right = sum(arr)
     sum_left = 0
@@ -61,4 +64,7 @@ def find_even_index(arr):
         sum_left += x
 
     return -1
+<<<<<<< HEAD
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
+=======
 >>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1

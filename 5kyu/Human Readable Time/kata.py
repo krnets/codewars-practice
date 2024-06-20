@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import codewars_test as test
 
 
@@ -26,6 +27,10 @@ def fixed_tests():
         test.assert_equals(make_readable(86399), "23:59:59")
         test.assert_equals(make_readable(86400), "24:00:00")
         test.assert_equals(make_readable(359999), "99:59:59")
+=======
+def make_readable(seconds):
+    return "{:02}:{:02}:{:02}".format(seconds // 60 // 60, (seconds // 60) % 60, seconds % 60)
+>>>>>>> 677620fbe53501cdc7d184005fe8b1a8b16722c1
 =======
 def make_readable(seconds):
     return "{:02}:{:02}:{:02}".format(seconds // 60 // 60, (seconds // 60) % 60, seconds % 60)
