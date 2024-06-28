@@ -1,5 +1,5 @@
 import codewars_test as test
-from kata import to_weird_case
+from kata2 import to_weird_case
 
 
 @test.describe("to_weird_case")
