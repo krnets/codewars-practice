@@ -44,7 +44,7 @@ duration_units = {
     "minute": (m := 60),
     "hour": (h := m**2),
     "day": (d := 24 * h),
-    "year": d * 365,
+    "year": 365 * d,
 }
 
 

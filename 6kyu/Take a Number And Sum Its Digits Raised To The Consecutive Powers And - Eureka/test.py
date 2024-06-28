@@ -1,4 +1,4 @@
-from kata import sum_dig_pow
+from kata2 import sum_dig_pow
 import codewars_test as test
 
 @test.describe("Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!")
